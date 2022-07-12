@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case vaksin get data by id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2ebfcbb-d95d-48ea-b0ec-f3e1928cd23b</testCaseGuid>
+</TestCaseEntity>

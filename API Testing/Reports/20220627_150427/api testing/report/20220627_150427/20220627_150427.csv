@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+report,,,,2022-06-27 15:04:41,2022-06-27 15:05:15,34.071s,PASSED
+,,,,,,,
+Test Cases/booking/test case booking get data all,,,,2022-06-27 15:04:42,2022-06-27 15:04:51,9.032s,PASSED
+"response = sendRequest(findTestObject(""booking/booking get data all""))",,,,2022-06-27 15:04:43,2022-06-27 15:04:51,7.549s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 15:04:51,2022-06-27 15:04:51,0.128s,PASSED
+,,,,,,,
+Test Cases/kelompok/test case kelompok get data all,,,,2022-06-27 15:04:51,2022-06-27 15:04:54,2.661s,PASSED
+"response = sendRequest(findTestObject(""kelompok/kelompok get data all""))",,,,2022-06-27 15:04:52,2022-06-27 15:04:54,1.509s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 15:04:54,2022-06-27 15:04:54,0.031s,PASSED
+,,,,,,,
+Test Cases/schedule/test case schedule get data all,,,,2022-06-27 15:04:54,2022-06-27 15:04:57,2.830s,PASSED
+"response = sendRequest(findTestObject(""schedule/schedule get data all""))",,,,2022-06-27 15:04:55,2022-06-27 15:04:57,1.840s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 15:04:57,2022-06-27 15:04:57,0.022s,PASSED
+,,,,,,,
+Test Cases/session/test case session get data all,,,,2022-06-27 15:04:57,2022-06-27 15:04:59,2.404s,PASSED
+"response = sendRequest(findTestObject(""session/session get data all""))",,,,2022-06-27 15:04:58,2022-06-27 15:04:59,1.553s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 15:04:59,2022-06-27 15:04:59,0.018s,PASSED
+,,,,,,,
+Test Cases/user/test case user get data all,,,,2022-06-27 15:04:59,2022-06-27 15:05:02,2.492s,PASSED
+"response = sendRequest(findTestObject(""user/user get data all""))",,,,2022-06-27 15:05:00,2022-06-27 15:05:01,1.488s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 15:05:01,2022-06-27 15:05:01,0.000s,PASSED
+"verifyElementPropertyValue(response, ""[0].idUser"", 24)",,,,2022-06-27 15:05:01,2022-06-27 15:05:02,0.162s,PASSED
+,,,,,,,
+Test Cases/vaksin/test case vaksin get data all,,,,2022-06-27 15:05:02,2022-06-27 15:05:04,2.410s,PASSED
+"response = sendRequest(findTestObject(""vaksin/vaksin get data all""))",,,,2022-06-27 15:05:02,2022-06-27 15:05:04,1.571s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 15:05:04,2022-06-27 15:05:04,0.014s,PASSED
+,,,,,,,
+Test Cases/user/test case user get user by id,,,,2022-06-27 15:05:04,2022-06-27 15:05:06,2.369s,PASSED
+"response = sendRequest(findTestObject(""user/user get user by id""))",,,,2022-06-27 15:05:05,2022-06-27 15:05:06,1.493s,PASSED
+"verifyElementPropertyValue(response, ""idUser"", 24)",,,,2022-06-27 15:05:06,2022-06-27 15:05:06,0.065s,PASSED
+,,,,,,,
+Test Cases/user/test case create user,,,,2022-06-27 15:05:06,2022-06-27 15:05:09,2.995s,PASSED
+"response = sendRequest(findTestObject(""user/create user"", [""variable"":""""]))",,,,2022-06-27 15:05:07,2022-06-27 15:05:09,1.927s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 15:05:09,2022-06-27 15:05:09,0.000s,PASSED
+"verifyElementPropertyValue(response, ""email"", ""jakejohn@email.com"")",,,,2022-06-27 15:05:09,2022-06-27 15:05:09,0.062s,PASSED
+,,,,,,,
+Test Cases/user/test case create health,,,,2022-06-27 15:05:10,2022-06-27 15:05:13,2.885s,PASSED
+"response = sendRequest(findTestObject(""user/create health""))",,,,2022-06-27 15:05:11,2022-06-27 15:05:13,1.493s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 15:05:13,2022-06-27 15:05:13,0.000s,PASSED
+"verifyElementPropertyValue(response, ""email"", ""rs_ceriamedika@gmail.com"")",,,,2022-06-27 15:05:13,2022-06-27 15:05:13,0.062s,PASSED
+,,,,,,,
+Test Cases/user/test case update data,,,,2022-06-27 15:05:13,2022-06-27 15:05:15,2.300s,PASSED
+"response = sendRequest(findTestObject(""user/update data""))",,,,2022-06-27 15:05:13,2022-06-27 15:05:15,1.427s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 15:05:15,2022-06-27 15:05:15,0.000s,PASSED
+"verifyElementPropertyValue(response, ""kota"", ""Kalimantan"")",,,,2022-06-27 15:05:15,2022-06-27 15:05:15,0.085s,PASSED

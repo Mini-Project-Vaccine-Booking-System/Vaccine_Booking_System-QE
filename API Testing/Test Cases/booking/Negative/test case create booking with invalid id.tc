@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case create booking with invalid id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd0c1f25-7274-4260-8853-a23b8fcee707</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Report Testing Web,Chrome 103.0.5060.66,,,2022-07-01 17:19:19,2022-07-01 17:20:26,1m - 7.087s,PASSED
+,,,,,,,
+Test Cases/Logout/Test Case logout,Chrome 103.0.5060.66,,,2022-07-01 17:19:21,2022-07-01 17:19:37,16.353s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-01 17:19:22,2022-07-01 17:19:28,6.701s,PASSED
+"navigateToUrl(""https://testing-vaccine.vercel.app/"")",Chrome 103.0.5060.66,,,2022-07-01 17:19:28,2022-07-01 17:19:31,2.430s,PASSED
+"click(findTestObject(""Object Repository/logout/Page_VaksinQu/a_Logout""))",Chrome 103.0.5060.66,,,2022-07-01 17:19:31,2022-07-01 17:19:35,4.109s,PASSED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-07-01 17:19:35,2022-07-01 17:19:37,1.794s,PASSED
+,,,,,,,
+Test Cases/Information Covid Dashboard/test case information gejala covid,Chrome 103.0.5060.66,,,2022-07-01 17:19:37,2022-07-01 17:19:48,10.827s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-01 17:19:38,2022-07-01 17:19:41,2.618s,PASSED
+"navigateToUrl(""https://testing-vaccine.vercel.app/"")",Chrome 103.0.5060.66,,,2022-07-01 17:19:41,2022-07-01 17:19:43,2.789s,PASSED
+"click(findTestObject(""Object Repository/gejala/Page_VaksinQu/button_Gejala""))",Chrome 103.0.5060.66,,,2022-07-01 17:19:43,2022-07-01 17:19:47,3.161s,PASSED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-07-01 17:19:47,2022-07-01 17:19:48,1.075s,PASSED
+,,,,,,,
+Test Cases/Information Covid Dashboard/test case pencegahan covid,Chrome 103.0.5060.66,,,2022-07-01 17:19:48,2022-07-01 17:20:00,11.816s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-01 17:19:49,2022-07-01 17:19:51,2.659s,PASSED
+"navigateToUrl(""https://testing-vaccine.vercel.app/"")",Chrome 103.0.5060.66,,,2022-07-01 17:19:51,2022-07-01 17:19:54,2.547s,PASSED
+"click(findTestObject(""Object Repository/pencegahan covid/Page_VaksinQu/button_Pencegahan""))",Chrome 103.0.5060.66,,,2022-07-01 17:19:54,2022-07-01 17:19:58,4.375s,PASSED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-07-01 17:19:58,2022-07-01 17:20:00,1.229s,PASSED
+,,,,,,,
+Test Cases/Information Covid Dashboard/test case perawatan isolasi mandiri,Chrome 103.0.5060.66,,,2022-07-01 17:20:00,2022-07-01 17:20:13,13.082s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-01 17:20:01,2022-07-01 17:20:03,2.591s,PASSED
+"navigateToUrl(""https://testing-vaccine.vercel.app/"")",Chrome 103.0.5060.66,,,2022-07-01 17:20:03,2022-07-01 17:20:06,2.662s,PASSED
+"click(findTestObject(""Object Repository/perawatan isolasi mandiri/Page_VaksinQu/button_Perawatan""))",Chrome 103.0.5060.66,,,2022-07-01 17:20:06,2022-07-01 17:20:09,3.682s,PASSED
+"click(findTestObject(""Object Repository/perawatan isolasi mandiri/Page_VaksinQu/div_Isolasi Mandiri""))",Chrome 103.0.5060.66,,,2022-07-01 17:20:09,2022-07-01 17:20:10,1.046s,PASSED
+"click(findTestObject(""Object Repository/perawatan isolasi mandiri/Page_VaksinQu/div_Isolasi Mandiri""))",Chrome 103.0.5060.66,,,2022-07-01 17:20:10,2022-07-01 17:20:11,0.900s,PASSED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-07-01 17:20:11,2022-07-01 17:20:13,1.212s,PASSED
+,,,,,,,
+Test Cases/Information Covid Dashboard/test case perawatan terapi medis,Chrome 103.0.5060.66,,,2022-07-01 17:20:13,2022-07-01 17:20:26,13.831s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-01 17:20:14,2022-07-01 17:20:16,2.618s,PASSED
+"navigateToUrl(""https://testing-vaccine.vercel.app/"")",Chrome 103.0.5060.66,,,2022-07-01 17:20:16,2022-07-01 17:20:19,2.312s,PASSED
+"click(findTestObject(""Object Repository/perawatan terapi medis/Page_VaksinQu/button_Perawatan""))",Chrome 103.0.5060.66,,,2022-07-01 17:20:19,2022-07-01 17:20:23,4.906s,PASSED
+"click(findTestObject(""Object Repository/perawatan terapi medis/Page_VaksinQu/div_Isolasi Mandiri""))",Chrome 103.0.5060.66,,,2022-07-01 17:20:23,2022-07-01 17:20:24,0.981s,PASSED
+"click(findTestObject(""Object Repository/perawatan terapi medis/Page_VaksinQu/div_Terapi Medis""))",Chrome 103.0.5060.66,,,2022-07-01 17:20:24,2022-07-01 17:20:25,0.820s,PASSED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-07-01 17:20:25,2022-07-01 17:20:26,1.199s,PASSED

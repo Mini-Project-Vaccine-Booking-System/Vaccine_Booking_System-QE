@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+booking,,,,2022-06-27 11:44:39,2022-06-27 11:44:55,15.800s,PASSED
+,,,,,,,
+Test Cases/booking/test case booking get data all,,,,2022-06-27 11:44:41,2022-06-27 11:44:50,9.875s,PASSED
+"response = sendRequest(findTestObject(""booking/booking get data all""))",,,,2022-06-27 11:44:42,2022-06-27 11:44:50,8.095s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 11:44:50,2022-06-27 11:44:50,0.079s,PASSED
+"verifyElementPropertyValue(response, ""[0].idBooking"", 24)",,,,2022-06-27 11:44:50,2022-06-27 11:44:50,0.352s,PASSED
+,,,,,,,
+Test Cases/user/test case user get data all,,,,2022-06-27 11:44:51,2022-06-27 11:44:53,2.688s,PASSED
+"response = sendRequest(findTestObject(""user/user get data all""))",,,,2022-06-27 11:44:52,2022-06-27 11:44:53,1.514s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 11:44:53,2022-06-27 11:44:53,0.016s,PASSED
+"verifyElementPropertyValue(response, ""[0].idUser"", 4)",,,,2022-06-27 11:44:53,2022-06-27 11:44:53,0.082s,PASSED
+,,,,,,,
+Test Cases/booking/test case booking get data all,,,,2022-06-27 11:44:53,2022-06-27 11:44:55,1.798s,PASSED
+"response = sendRequest(findTestObject(""booking/booking get data all""))",,,,2022-06-27 11:44:53,2022-06-27 11:44:55,1.661s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-06-27 11:44:55,2022-06-27 11:44:55,0.000s,PASSED
+"verifyElementPropertyValue(response, ""[0].idBooking"", 24)",,,,2022-06-27 11:44:55,2022-06-27 11:44:55,0.090s,PASSED

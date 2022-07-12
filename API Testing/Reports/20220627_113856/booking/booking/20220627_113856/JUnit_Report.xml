@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="booking" time="12.965" tests="2" failures="0" errors="0">
+   <testsuite name="booking" tests="2" failures="0" errors="0" time="12.965" skipped="0" timestamp="2022-06-27 11:39:12" hostname="A - DESKTOP-A4RBSR0" id="Test Suites/booking/booking">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\A\\Katalon Studio\\My First Web UI Project\\Reports\\20220627_113856\\booking\\booking\\20220627_113856"/>
+         <property name="logFiles" value="C:\\Users\\A\\Katalon Studio\\My First Web UI Project\\Reports\\20220627_113856\\booking\\booking\\20220627_113856\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="A - DESKTOP-A4RBSR0"/>
+         <property name="hostAddress" value="192.168.43.80"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+      </properties>
+      <testcase name="Test Cases/booking/test case booking get data all" time="9.26" classname="Test Cases/booking/test case booking get data all" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:39:13 - [TEST_CASE][PASSED] - Test Cases/booking/test case booking get data all: Test Cases/booking/test case booking get data all
+
+2022-06-27 11:39:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("booking/booking get data all")): Send request successfully
+
+2022-06-27 11:39:22 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\My First Web UI Project\Reports\20220627_113856\booking\booking\20220627_113856\requests\main\0.har
+
+2022-06-27 11:39:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-27 11:39:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-06-27 11:39:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-06-27 11:39:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].idBooking", 24): Verify element property value successfully
+
+2022-06-27 11:39:23 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/test case user get data all" time="2.649" classname="Test Cases/user/test case user get data all" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:39:23 - [TEST_CASE][PASSED] - Test Cases/user/test case user get data all: Test Cases/user/test case user get data all
+
+2022-06-27 11:39:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/user get data all")): Send request successfully
+
+2022-06-27 11:39:25 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\My First Web UI Project\Reports\20220627_113856\booking\booking\20220627_113856\requests\main\1.har
+
+2022-06-27 11:39:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-27 11:39:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-06-27 11:39:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-06-27 11:39:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].idUser", 4): Verify element property value successfully
+
+2022-06-27 11:39:25 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-27 11:39:12 - [TEST_SUITE][PASSED] - booking: Test Cases/user/test case user get data all]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

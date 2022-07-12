@@ -1,0 +1,16 @@
+{"testCaseName":"Test Cases/booking/test case booking get data all","testCaseId":"Test Cases/booking/test case booking get data all","iterationVariableName":""}
+{"testCaseName":"Test Cases/kelompok/test case kelompok get data all","testCaseId":"Test Cases/kelompok/test case kelompok get data all","iterationVariableName":""}
+{"testCaseName":"Test Cases/schedule/test case schedule get data all","testCaseId":"Test Cases/schedule/test case schedule get data all","iterationVariableName":""}
+{"testCaseName":"Test Cases/session/test case session get data all","testCaseId":"Test Cases/session/test case session get data all","iterationVariableName":""}
+{"testCaseName":"Test Cases/user/test case user get data all","testCaseId":"Test Cases/user/test case user get data all","iterationVariableName":""}
+{"testCaseName":"Test Cases/vaksin/test case vaksin get data all","testCaseId":"Test Cases/vaksin/test case vaksin get data all","iterationVariableName":""}
+{"testCaseName":"Test Cases/user/test case user get user by id","testCaseId":"Test Cases/user/test case user get user by id","iterationVariableName":""}
+{"testCaseName":"Test Cases/user/test case create user","testCaseId":"Test Cases/user/test case create user","iterationVariableName":""}
+{"testCaseName":"Test Cases/user/test case create health","testCaseId":"Test Cases/user/test case create health","iterationVariableName":""}
+{"testCaseName":"Test Cases/user/test case update data","testCaseId":"Test Cases/user/test case update data","iterationVariableName":""}
+{"testCaseName":"Test Cases/user/test case user get user by city","testCaseId":"Test Cases/user/test case user get user by city","iterationVariableName":""}
+{"testCaseName":"Test Cases/kelompok/test case kelompok get data by id","testCaseId":"Test Cases/kelompok/test case kelompok get data by id","iterationVariableName":""}
+{"testCaseName":"Test Cases/user/test case deleted user by id","testCaseId":"Test Cases/user/test case deleted user by id","iterationVariableName":""}
+{"testCaseName":"Test Cases/kelompok/test case create kelompok","testCaseId":"Test Cases/kelompok/test case create kelompok","iterationVariableName":""}
+{"testCaseName":"Test Cases/kelompok/test case update kelompok","testCaseId":"Test Cases/kelompok/test case update kelompok","iterationVariableName":""}
+{"testCaseName":"Test Cases/kelompok/test case deleted kelompok by id","testCaseId":"Test Cases/kelompok/test case deleted kelompok by id","iterationVariableName":""}

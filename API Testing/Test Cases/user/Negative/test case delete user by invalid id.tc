@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case delete user by invalid id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa9401a7-7db7-4a46-8cac-55d7432550fe</testCaseGuid>
+</TestCaseEntity>

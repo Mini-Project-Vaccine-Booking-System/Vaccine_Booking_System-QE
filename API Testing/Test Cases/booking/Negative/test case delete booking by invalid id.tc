@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case delete booking by invalid id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0a51d79-7699-41fe-adc1-23bd15854815</testCaseGuid>
+</TestCaseEntity>

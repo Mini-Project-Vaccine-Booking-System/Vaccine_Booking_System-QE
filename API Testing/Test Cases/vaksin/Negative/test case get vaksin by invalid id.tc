@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case get vaksin by invalid id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6ad61cd-772e-40bb-afc5-66190cd1ae6a</testCaseGuid>
+</TestCaseEntity>

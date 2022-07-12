@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case get user by invalid id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cec053e5-a7da-4317-99b2-d7096483af74</testCaseGuid>
+</TestCaseEntity>

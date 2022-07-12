@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="report" time="271.749" tests="49" failures="4" errors="0">
+   <testsuite name="report" tests="49" failures="4" errors="0" time="271.749" skipped="0" timestamp="2022-07-12 19:26:42" hostname="A - DESKTOP-A4RBSR0" id="Test Suites/api testing/report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\A\\Katalon Studio\\API Testing\\Reports\\20220712_192624\\api testing\\report\\20220712_192624"/>
+         <property name="logFiles" value="C:\\Users\\A\\Katalon Studio\\API Testing\\Reports\\20220712_192624\\api testing\\report\\20220712_192624\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="A - DESKTOP-A4RBSR0"/>
+         <property name="hostAddress" value="192.168.43.80"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+      </properties>
+      <testcase name="Test Cases/booking/Negative/test case create booking with invalid id" time="8.959" classname="Test Cases/booking/Negative/test case create booking with invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:26:43 - [TEST_CASE][PASSED] - Test Cases/booking/Negative/test case create booking with invalid id: Test Cases/booking/Negative/test case create booking with invalid id
+
+2022-07-12 19:26:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("booking/Negative/create booking with invalid id")): Send request successfully
+
+2022-07-12 19:26:52 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\0.har
+
+2022-07-12 19:26:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:26:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:26:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/booking/Negative/test case delete booking by invalid id" time="2.912" classname="Test Cases/booking/Negative/test case delete booking by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:26:52 - [TEST_CASE][PASSED] - Test Cases/booking/Negative/test case delete booking by invalid id: Test Cases/booking/Negative/test case delete booking by invalid id
+
+2022-07-12 19:26:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("booking/Negative/test case delete booking by invalid id")): Send request successfully
+
+2022-07-12 19:26:55 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\1.har
+
+2022-07-12 19:26:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:26:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:26:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/booking/Negative/test case edit booking with invalid id" time="2.569" classname="Test Cases/booking/Negative/test case edit booking with invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:26:55 - [TEST_CASE][PASSED] - Test Cases/booking/Negative/test case edit booking with invalid id: Test Cases/booking/Negative/test case edit booking with invalid id
+
+2022-07-12 19:26:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("booking/Negative/edit booking with invalid id")): Send request successfully
+
+2022-07-12 19:26:58 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\2.har
+
+2022-07-12 19:26:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:26:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:26:58 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/booking/Negative/test case get booking by id invalid" time="2.464" classname="Test Cases/booking/Negative/test case get booking by id invalid" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:26:58 - [TEST_CASE][PASSED] - Test Cases/booking/Negative/test case get booking by id invalid: Test Cases/booking/Negative/test case get booking by id invalid
+
+2022-07-12 19:26:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("booking/Negative/get booking by id invalid")): Send request successfully
+
+2022-07-12 19:27:00 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\3.har
+
+2022-07-12 19:27:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:27:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/booking/Positive/test case booking get data all" time="2.652" classname="Test Cases/booking/Positive/test case booking get data all" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:00 - [TEST_CASE][PASSED] - Test Cases/booking/Positive/test case booking get data all: Test Cases/booking/Positive/test case booking get data all
+
+2022-07-12 19:27:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("booking/Positive/booking get data all")): Send request successfully
+
+2022-07-12 19:27:03 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\4.har
+
+2022-07-12 19:27:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:27:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/booking/Positive/test case create booking" time="1.534" classname="Test Cases/booking/Positive/test case create booking" status="FAILED">
+         <failure type="FAILED" message="Test Cases/booking/Positive/test case create booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create booking.run(test case create booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-12 19:27:08 - [TEST_CASE][FAILED] - Test Cases/booking/Positive/test case create booking: Test Cases/booking/Positive/test case create booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create booking.run(test case create booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+
+
+2022-07-12 19:27:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("booking/Positive/create booking")): Send request successfully
+
+2022-07-12 19:27:10 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\8.har
+
+2022-07-12 19:27:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:10 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, 200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create booking.run(test case create booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+)
+
+2022-07-12 19:27:10 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '500'
+
+2022-07-12 19:27:10 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create booking.run(test case create booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-07-12 19:27:08 - [TEST_CASE][FAILED] - Test Cases/booking/Positive/test case create booking: Test Cases/booking/Positive/test case create booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create booking.run(test case create booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/booking/Positive/test case delete booking" time="2.073" classname="Test Cases/booking/Positive/test case delete booking" status="FAILED">
+         <failure type="FAILED" message="Test Cases/booking/Positive/test case delete booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case delete booking.run(test case delete booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-12 19:27:17 - [TEST_CASE][FAILED] - Test Cases/booking/Positive/test case delete booking: Test Cases/booking/Positive/test case delete booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case delete booking.run(test case delete booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+
+
+2022-07-12 19:27:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("booking/Positive/deleted booking")): Send request successfully
+
+2022-07-12 19:27:19 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\12.har
+
+2022-07-12 19:27:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:19 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, 200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case delete booking.run(test case delete booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+)
+
+2022-07-12 19:27:19 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '404'
+
+2022-07-12 19:27:19 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case delete booking.run(test case delete booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-07-12 19:27:17 - [TEST_CASE][FAILED] - Test Cases/booking/Positive/test case delete booking: Test Cases/booking/Positive/test case delete booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case delete booking.run(test case delete booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/booking/Positive/test case get booking by id" time="2.539" classname="Test Cases/booking/Positive/test case get booking by id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:19 - [TEST_CASE][PASSED] - Test Cases/booking/Positive/test case get booking by id: Test Cases/booking/Positive/test case get booking by id
+
+2022-07-12 19:27:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("booking/Positive/get booking by id")): Send request successfully
+
+2022-07-12 19:27:21 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\13.har
+
+2022-07-12 19:27:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:27:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:27:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.idBooking", 134): Verify element property value successfully
+
+2022-07-12 19:27:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/booking/Positive/test case update booking" time="3.333" classname="Test Cases/booking/Positive/test case update booking" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:21 - [TEST_CASE][PASSED] - Test Cases/booking/Positive/test case update booking: Test Cases/booking/Positive/test case update booking
+
+2022-07-12 19:27:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("booking/Positive/update booking")): Send request successfully
+
+2022-07-12 19:27:25 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\14.har
+
+2022-07-12 19:27:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:27:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:27:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.idBooking", 134): Verify element property value successfully
+
+2022-07-12 19:27:25 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kelompok/Negative/test case create kelompok by invalid id" time="2.434" classname="Test Cases/kelompok/Negative/test case create kelompok by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:25 - [TEST_CASE][PASSED] - Test Cases/kelompok/Negative/test case create kelompok by invalid id: Test Cases/kelompok/Negative/test case create kelompok by invalid id
+
+2022-07-12 19:27:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("kelompok/Negative/create kelompok with invalid id")): Send request successfully
+
+2022-07-12 19:27:27 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\15.har
+
+2022-07-12 19:27:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:27:27 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kelompok/Negative/test case delete kelompok by invalid id" time="2.33" classname="Test Cases/kelompok/Negative/test case delete kelompok by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:27 - [TEST_CASE][PASSED] - Test Cases/kelompok/Negative/test case delete kelompok by invalid id: Test Cases/kelompok/Negative/test case delete kelompok by invalid id
+
+2022-07-12 19:27:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("kelompok/Negative/delete kelompok by invalid id")): Send request successfully
+
+2022-07-12 19:27:29 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\16.har
+
+2022-07-12 19:27:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:27:29 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kelompok/Negative/test case edit kelompok by invalid id" time="2.324" classname="Test Cases/kelompok/Negative/test case edit kelompok by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:29 - [TEST_CASE][PASSED] - Test Cases/kelompok/Negative/test case edit kelompok by invalid id: Test Cases/kelompok/Negative/test case edit kelompok by invalid id
+
+2022-07-12 19:27:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("kelompok/Negative/update kelompok by invalid id")): Send request successfully
+
+2022-07-12 19:27:32 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\17.har
+
+2022-07-12 19:27:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:27:32 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kelompok/Negative/test case get kelompok by invalid id" time="2.177" classname="Test Cases/kelompok/Negative/test case get kelompok by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:32 - [TEST_CASE][PASSED] - Test Cases/kelompok/Negative/test case get kelompok by invalid id: Test Cases/kelompok/Negative/test case get kelompok by invalid id
+
+2022-07-12 19:27:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("kelompok/Negative/get kelompok by invalid id")): Send request successfully
+
+2022-07-12 19:27:34 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\18.har
+
+2022-07-12 19:27:34 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:27:34 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kelompok/Positive/test case create kelompok" time="2.905" classname="Test Cases/kelompok/Positive/test case create kelompok" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:34 - [TEST_CASE][PASSED] - Test Cases/kelompok/Positive/test case create kelompok: Test Cases/kelompok/Positive/test case create kelompok
+
+2022-07-12 19:27:35 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("kelompok/Positive/create kelompok")): Send request successfully
+
+2022-07-12 19:27:37 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\19.har
+
+2022-07-12 19:27:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:27:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:27:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.user.idUser", 274): Verify element property value successfully
+
+2022-07-12 19:27:37 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kelompok/Positive/test case deleted kelompok by id" time="2.206" classname="Test Cases/kelompok/Positive/test case deleted kelompok by id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:37 - [TEST_CASE][PASSED] - Test Cases/kelompok/Positive/test case deleted kelompok by id: Test Cases/kelompok/Positive/test case deleted kelompok by id
+
+2022-07-12 19:27:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("kelompok/Positive/deleted kelompok by id")): Send request successfully
+
+2022-07-12 19:27:39 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\20.har
+
+2022-07-12 19:27:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:27:39 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kelompok/Positive/test case kelompok get data all" time="2.852" classname="Test Cases/kelompok/Positive/test case kelompok get data all" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:39 - [TEST_CASE][PASSED] - Test Cases/kelompok/Positive/test case kelompok get data all: Test Cases/kelompok/Positive/test case kelompok get data all
+
+2022-07-12 19:27:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("kelompok/Positive/kelompok get data all")): Send request successfully
+
+2022-07-12 19:27:42 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\21.har
+
+2022-07-12 19:27:42 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:27:42 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kelompok/Positive/test case kelompok get data by id" time="2.26" classname="Test Cases/kelompok/Positive/test case kelompok get data by id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:42 - [TEST_CASE][PASSED] - Test Cases/kelompok/Positive/test case kelompok get data by id: Test Cases/kelompok/Positive/test case kelompok get data by id
+
+2022-07-12 19:27:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("kelompok/Positive/get kelompok by id")): Send request successfully
+
+2022-07-12 19:27:44 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\22.har
+
+2022-07-12 19:27:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:27:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:27:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.idKelompok", 14): Verify element property value successfully
+
+2022-07-12 19:27:44 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kelompok/Positive/test case update kelompok" time="2.758" classname="Test Cases/kelompok/Positive/test case update kelompok" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:44 - [TEST_CASE][PASSED] - Test Cases/kelompok/Positive/test case update kelompok: Test Cases/kelompok/Positive/test case update kelompok
+
+2022-07-12 19:27:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("kelompok/Positive/update kelompok")): Send request successfully
+
+2022-07-12 19:27:47 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\23.har
+
+2022-07-12 19:27:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:27:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:27:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.idKelompok", 314): Verify element property value successfully
+
+2022-07-12 19:27:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Negative/test case create session by invalid id" time="2.273" classname="Test Cases/session/Negative/test case create session by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:47 - [TEST_CASE][PASSED] - Test Cases/session/Negative/test case create session by invalid id: Test Cases/session/Negative/test case create session by invalid id
+
+2022-07-12 19:27:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Negative/create session by invalid id")): Send request successfully
+
+2022-07-12 19:27:49 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\24.har
+
+2022-07-12 19:27:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:27:49 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Negative/test case delete session by invalid id" time="2.272" classname="Test Cases/session/Negative/test case delete session by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:49 - [TEST_CASE][PASSED] - Test Cases/session/Negative/test case delete session by invalid id: Test Cases/session/Negative/test case delete session by invalid id
+
+2022-07-12 19:27:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Negative/delete session by invalid id")): Send request successfully
+
+2022-07-12 19:27:52 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\25.har
+
+2022-07-12 19:27:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:27:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Negative/test case edit session by invalid id" time="2.176" classname="Test Cases/session/Negative/test case edit session by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:52 - [TEST_CASE][PASSED] - Test Cases/session/Negative/test case edit session by invalid id: Test Cases/session/Negative/test case edit session by invalid id
+
+2022-07-12 19:27:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Negative/update session by invalid id")): Send request successfully
+
+2022-07-12 19:27:54 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\26.har
+
+2022-07-12 19:27:54 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:27:54 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Negative/test case get session by invalid date and city" time="2.965" classname="Test Cases/session/Negative/test case get session by invalid date and city" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:54 - [TEST_CASE][PASSED] - Test Cases/session/Negative/test case get session by invalid date and city: Test Cases/session/Negative/test case get session by invalid date and city
+
+2022-07-12 19:27:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Negative/get session by invalid date and city")): Send request successfully
+
+2022-07-12 19:27:57 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\27.har
+
+2022-07-12 19:27:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:27:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Negative/test case get session by invalid id" time="2.147" classname="Test Cases/session/Negative/test case get session by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:27:57 - [TEST_CASE][PASSED] - Test Cases/session/Negative/test case get session by invalid id: Test Cases/session/Negative/test case get session by invalid id
+
+2022-07-12 19:27:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Negative/get session by invalid id")): Send request successfully
+
+2022-07-12 19:27:59 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\28.har
+
+2022-07-12 19:27:59 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:27:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:27:59 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Positive/test case create session" time="1.433" classname="Test Cases/session/Positive/test case create session" status="FAILED">
+         <failure type="FAILED" message="Test Cases/session/Positive/test case create session FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create session.run(test case create session:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-12 19:28:04 - [TEST_CASE][FAILED] - Test Cases/session/Positive/test case create session: Test Cases/session/Positive/test case create session FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create session.run(test case create session:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+
+
+2022-07-12 19:28:04 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Positive/create session")): Send request successfully
+
+2022-07-12 19:28:06 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\32.har
+
+2022-07-12 19:28:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:28:06 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, 200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create session.run(test case create session:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+)
+
+2022-07-12 19:28:06 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '500'
+
+2022-07-12 19:28:06 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create session.run(test case create session:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-07-12 19:28:04 - [TEST_CASE][FAILED] - Test Cases/session/Positive/test case create session: Test Cases/session/Positive/test case create session FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create session.run(test case create session:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Positive/test case delete session" time="2.41" classname="Test Cases/session/Positive/test case delete session" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:28:06 - [TEST_CASE][PASSED] - Test Cases/session/Positive/test case delete session: Test Cases/session/Positive/test case delete session
+
+2022-07-12 19:28:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Positive/deleted session")): Send request successfully
+
+2022-07-12 19:28:08 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\33.har
+
+2022-07-12 19:28:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:28:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:28:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Positive/test case get session by date and city" time="2.342" classname="Test Cases/session/Positive/test case get session by date and city" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:28:08 - [TEST_CASE][PASSED] - Test Cases/session/Positive/test case get session by date and city: Test Cases/session/Positive/test case get session by date and city
+
+2022-07-12 19:28:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Positive/get session by date and city")): Send request successfully
+
+2022-07-12 19:28:10 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\34.har
+
+2022-07-12 19:28:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:28:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:28:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:28:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].vaksin.user.kota", "Surakarta"): Verify element property value successfully
+
+2022-07-12 19:28:10 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Positive/test case get session by id" time="2.158" classname="Test Cases/session/Positive/test case get session by id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:28:10 - [TEST_CASE][PASSED] - Test Cases/session/Positive/test case get session by id: Test Cases/session/Positive/test case get session by id
+
+2022-07-12 19:28:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Positive/get session by id")): Send request successfully
+
+2022-07-12 19:28:13 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\35.har
+
+2022-07-12 19:28:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:28:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:28:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:28:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.idSession", 74): Verify element property value successfully
+
+2022-07-12 19:28:13 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Positive/test case session get data all" time="2.597" classname="Test Cases/session/Positive/test case session get data all" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:28:13 - [TEST_CASE][PASSED] - Test Cases/session/Positive/test case session get data all: Test Cases/session/Positive/test case session get data all
+
+2022-07-12 19:28:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Positive/session get data all")): Send request successfully
+
+2022-07-12 19:28:15 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\36.har
+
+2022-07-12 19:28:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:28:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:28:15 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/session/Positive/test case update session" time="1.683" classname="Test Cases/session/Positive/test case update session" status="FAILED">
+         <failure type="FAILED" message="Test Cases/session/Positive/test case update session FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case update session.run(test case update session:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-12 19:28:21 - [TEST_CASE][FAILED] - Test Cases/session/Positive/test case update session: Test Cases/session/Positive/test case update session FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case update session.run(test case update session:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+
+
+2022-07-12 19:28:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("session/Positive/update session")): Send request successfully
+
+2022-07-12 19:28:22 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\40.har
+
+2022-07-12 19:28:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:28:22 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, 200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case update session.run(test case update session:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+)
+
+2022-07-12 19:28:22 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '500'
+
+2022-07-12 19:28:22 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case update session.run(test case update session:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-07-12 19:28:21 - [TEST_CASE][FAILED] - Test Cases/session/Positive/test case update session: Test Cases/session/Positive/test case update session FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case update session.run(test case update session:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Negative/test case delete user by invalid id" time="2.143" classname="Test Cases/user/Negative/test case delete user by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:28:22 - [TEST_CASE][PASSED] - Test Cases/user/Negative/test case delete user by invalid id: Test Cases/user/Negative/test case delete user by invalid id
+
+2022-07-12 19:28:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Negative/delete user by invalid id")): Send request successfully
+
+2022-07-12 19:28:24 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\41.har
+
+2022-07-12 19:28:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:28:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:28:24 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Negative/test case get user by invalid city" time="99.341" classname="Test Cases/user/Negative/test case get user by invalid city" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:28:24 - [TEST_CASE][PASSED] - Test Cases/user/Negative/test case get user by invalid city: Test Cases/user/Negative/test case get user by invalid city
+
+2022-07-12 19:28:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Negative/get user by invalid city")): Send request successfully
+
+2022-07-12 19:30:04 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\42.har
+
+2022-07-12 19:30:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:30:04 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Negative/test case get user by invalid id" time="2.603" classname="Test Cases/user/Negative/test case get user by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:04 - [TEST_CASE][PASSED] - Test Cases/user/Negative/test case get user by invalid id: Test Cases/user/Negative/test case get user by invalid id
+
+2022-07-12 19:30:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Negative/get user by invalid id")): Send request successfully
+
+2022-07-12 19:30:06 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\43.har
+
+2022-07-12 19:30:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:30:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Positive/test case create health" time="2.679" classname="Test Cases/user/Positive/test case create health" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:06 - [TEST_CASE][PASSED] - Test Cases/user/Positive/test case create health: Test Cases/user/Positive/test case create health
+
+2022-07-12 19:30:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Positive/create health")): Send request successfully
+
+2022-07-12 19:30:09 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\44.har
+
+2022-07-12 19:30:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:30:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:30:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", "rs_ceriamedika@gmail.com"): Verify element property value successfully
+
+2022-07-12 19:30:09 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Positive/test case create user" time="2.405" classname="Test Cases/user/Positive/test case create user" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:09 - [TEST_CASE][PASSED] - Test Cases/user/Positive/test case create user: Test Cases/user/Positive/test case create user
+
+2022-07-12 19:30:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Positive/create user", ["variable":""])): Send request successfully
+
+2022-07-12 19:30:11 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\45.har
+
+2022-07-12 19:30:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:30:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:30:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", "jakejohn@email.com"): Verify element property value successfully
+
+2022-07-12 19:30:11 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Positive/test case deleted user by id" time="2.627" classname="Test Cases/user/Positive/test case deleted user by id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:12 - [TEST_CASE][PASSED] - Test Cases/user/Positive/test case deleted user by id: Test Cases/user/Positive/test case deleted user by id
+
+2022-07-12 19:30:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Positive/deleted user by id")): Send request successfully
+
+2022-07-12 19:30:14 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\46.har
+
+2022-07-12 19:30:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:30:14 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Positive/test case update data health" time="2.389" classname="Test Cases/user/Positive/test case update data health" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:14 - [TEST_CASE][PASSED] - Test Cases/user/Positive/test case update data health: Test Cases/user/Positive/test case update data health
+
+2022-07-12 19:30:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Positive/update data health")): Send request successfully
+
+2022-07-12 19:30:16 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\47.har
+
+2022-07-12 19:30:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:30:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:30:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.idUser", 14): Verify element property value successfully
+
+2022-07-12 19:30:17 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Positive/test case update data user" time="2.446" classname="Test Cases/user/Positive/test case update data user" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:17 - [TEST_CASE][PASSED] - Test Cases/user/Positive/test case update data user: Test Cases/user/Positive/test case update data user
+
+2022-07-12 19:30:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Positive/update data user")): Send request successfully
+
+2022-07-12 19:30:19 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\48.har
+
+2022-07-12 19:30:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:30:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:30:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.idUser", 124): Verify element property value successfully
+
+2022-07-12 19:30:19 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Positive/test case user get data all" time="2.674" classname="Test Cases/user/Positive/test case user get data all" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:19 - [TEST_CASE][PASSED] - Test Cases/user/Positive/test case user get data all: Test Cases/user/Positive/test case user get data all
+
+2022-07-12 19:30:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Positive/user get data all")): Send request successfully
+
+2022-07-12 19:30:22 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\49.har
+
+2022-07-12 19:30:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:30:22 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Positive/test case user get user by city" time="3.581" classname="Test Cases/user/Positive/test case user get user by city" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:22 - [TEST_CASE][PASSED] - Test Cases/user/Positive/test case user get user by city: Test Cases/user/Positive/test case user get user by city
+
+2022-07-12 19:30:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Positive/get user by city")): Send request successfully
+
+2022-07-12 19:30:25 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\50.har
+
+2022-07-12 19:30:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:30:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:30:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].kota", "Bali"): Verify element property value successfully
+
+2022-07-12 19:30:25 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/Positive/test case user get user by id" time="4.753" classname="Test Cases/user/Positive/test case user get user by id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:25 - [TEST_CASE][PASSED] - Test Cases/user/Positive/test case user get user by id: Test Cases/user/Positive/test case user get user by id
+
+2022-07-12 19:30:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("user/Positive/user get user by id")): Send request successfully
+
+2022-07-12 19:30:30 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\51.har
+
+2022-07-12 19:30:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.idUser", 14): Verify element property value successfully
+
+2022-07-12 19:30:30 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/vaksin/Negative/test case create vaksin by invalid id" time="4.418" classname="Test Cases/vaksin/Negative/test case create vaksin by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:30 - [TEST_CASE][PASSED] - Test Cases/vaksin/Negative/test case create vaksin by invalid id: Test Cases/vaksin/Negative/test case create vaksin by invalid id
+
+2022-07-12 19:30:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("vaksin/Negative/create vaksin by invalid id")): Send request successfully
+
+2022-07-12 19:30:34 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\52.har
+
+2022-07-12 19:30:34 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:30:34 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/vaksin/Negative/test case delete vaksin by invalid id" time="2.245" classname="Test Cases/vaksin/Negative/test case delete vaksin by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:34 - [TEST_CASE][PASSED] - Test Cases/vaksin/Negative/test case delete vaksin by invalid id: Test Cases/vaksin/Negative/test case delete vaksin by invalid id
+
+2022-07-12 19:30:35 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("vaksin/Negative/delete vaksin by invalid id")): Send request successfully
+
+2022-07-12 19:30:37 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\53.har
+
+2022-07-12 19:30:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:30:37 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/vaksin/Negative/test case edit vaksin by invalid id" time="4.804" classname="Test Cases/vaksin/Negative/test case edit vaksin by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:37 - [TEST_CASE][PASSED] - Test Cases/vaksin/Negative/test case edit vaksin by invalid id: Test Cases/vaksin/Negative/test case edit vaksin by invalid id
+
+2022-07-12 19:30:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("vaksin/Negative/edit vaksin by invalid id")): Send request successfully
+
+2022-07-12 19:30:42 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\54.har
+
+2022-07-12 19:30:42 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:30:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:30:42 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/vaksin/Negative/test case get vaksin by invalid id" time="19.082" classname="Test Cases/vaksin/Negative/test case get vaksin by invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:30:42 - [TEST_CASE][PASSED] - Test Cases/vaksin/Negative/test case get vaksin by invalid id: Test Cases/vaksin/Negative/test case get vaksin by invalid id
+
+2022-07-12 19:30:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("vaksin/Negative/get vaksin by invalid id")): Send request successfully
+
+2022-07-12 19:31:01 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\55.har
+
+2022-07-12 19:31:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:31:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-07-12 19:31:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/vaksin/Positive/test case create vaksin" time="2.523" classname="Test Cases/vaksin/Positive/test case create vaksin" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:31:01 - [TEST_CASE][PASSED] - Test Cases/vaksin/Positive/test case create vaksin: Test Cases/vaksin/Positive/test case create vaksin
+
+2022-07-12 19:31:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("vaksin/Positive/create vaksin")): Send request successfully
+
+2022-07-12 19:31:03 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\56.har
+
+2022-07-12 19:31:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:31:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:31:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:31:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.user.idUser", 144): Verify element property value successfully
+
+2022-07-12 19:31:03 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/vaksin/Positive/test case deleted vaksin" time="2.76" classname="Test Cases/vaksin/Positive/test case deleted vaksin" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:31:03 - [TEST_CASE][PASSED] - Test Cases/vaksin/Positive/test case deleted vaksin: Test Cases/vaksin/Positive/test case deleted vaksin
+
+2022-07-12 19:31:04 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("vaksin/Positive/delete vaksin")): Send request successfully
+
+2022-07-12 19:31:06 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\57.har
+
+2022-07-12 19:31:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:31:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:31:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/vaksin/Positive/test case update vaksin" time="2.32" classname="Test Cases/vaksin/Positive/test case update vaksin" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:31:06 - [TEST_CASE][PASSED] - Test Cases/vaksin/Positive/test case update vaksin: Test Cases/vaksin/Positive/test case update vaksin
+
+2022-07-12 19:31:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("vaksin/Positive/update vaksin")): Send request successfully
+
+2022-07-12 19:31:08 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\58.har
+
+2022-07-12 19:31:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:31:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:31:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:31:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.idVaksin", 34): Verify element property value successfully
+
+2022-07-12 19:31:08 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/vaksin/Positive/test case vaksin get data all" time="2.741" classname="Test Cases/vaksin/Positive/test case vaksin get data all" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:31:08 - [TEST_CASE][PASSED] - Test Cases/vaksin/Positive/test case vaksin get data all: Test Cases/vaksin/Positive/test case vaksin get data all
+
+2022-07-12 19:31:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("vaksin/Positive/vaksin get data all")): Send request successfully
+
+2022-07-12 19:31:11 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\59.har
+
+2022-07-12 19:31:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:31:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:31:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/vaksin/Positive/test case vaksin get data by id" time="2.777" classname="Test Cases/vaksin/Positive/test case vaksin get data by id" status="PASSED">
+         <system-out><![CDATA[2022-07-12 19:31:11 - [TEST_CASE][PASSED] - Test Cases/vaksin/Positive/test case vaksin get data by id: Test Cases/vaksin/Positive/test case vaksin get data by id
+
+2022-07-12 19:31:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("vaksin/Positive/vaksin get data by id")): Send request successfully
+
+2022-07-12 19:31:14 - [MESSAGE][INFO] - HAR: C:\Users\A\Katalon Studio\API Testing\Reports\20220712_192624\api testing\report\20220712_192624\requests\main\60.har
+
+2022-07-12 19:31:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-12 19:31:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-07-12 19:31:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-12 19:31:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.idVaksin", 34): Verify element property value successfully
+
+2022-07-12 19:31:14 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-12 19:26:42 - [TEST_SUITE][FAILED] - report: Test Cases/booking/Positive/test case create booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create booking.run(test case create booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-07-12 19:26:42 - [TEST_SUITE][FAILED] - report: Test Cases/booking/Positive/test case create booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at test case create booking.run(test case create booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657628784753.run(TempTestSuite1657628784753.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

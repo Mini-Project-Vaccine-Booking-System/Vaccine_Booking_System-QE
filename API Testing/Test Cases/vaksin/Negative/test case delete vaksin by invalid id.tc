@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case delete vaksin by invalid id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b7314e3-cfc2-4871-8798-24d847e8bf73</testCaseGuid>
+</TestCaseEntity>

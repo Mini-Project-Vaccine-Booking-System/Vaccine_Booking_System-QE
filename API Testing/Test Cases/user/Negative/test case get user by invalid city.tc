@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case get user by invalid city</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26f4915d-eac3-446e-ad37-13c38eb5c1d8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case create session by invalid id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7fc08407-b114-4700-b939-ed578b3552a6</testCaseGuid>
+</TestCaseEntity>

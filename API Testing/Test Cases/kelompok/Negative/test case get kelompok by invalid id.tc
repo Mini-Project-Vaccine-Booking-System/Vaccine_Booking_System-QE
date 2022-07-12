@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case get kelompok by invalid id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd9e8c98-4c52-4f69-b45e-374f4a973ccd</testCaseGuid>
+</TestCaseEntity>

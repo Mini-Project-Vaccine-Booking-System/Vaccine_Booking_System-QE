@@ -1,0 +1,210 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+report,,,,2022-07-12 18:57:03,2022-07-12 18:59:48,2m - 44.319s,FAILED
+,,,,,,,
+Test Cases/booking/Negative/test case create booking with invalid id,,,,2022-07-12 18:57:05,2022-07-12 18:57:14,9.155s,PASSED
+"response = sendRequest(findTestObject(""booking/Negative/create booking with invalid id""))",,,,2022-07-12 18:57:06,2022-07-12 18:57:14,7.596s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:57:14,2022-07-12 18:57:14,0.161s,PASSED
+,,,,,,,
+Test Cases/booking/Negative/test case delete booking by invalid id,,,,2022-07-12 18:57:14,2022-07-12 18:57:16,2.403s,PASSED
+"response = sendRequest(findTestObject(""booking/Negative/test case delete booking by invalid id""))",,,,2022-07-12 18:57:15,2022-07-12 18:57:16,1.469s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:57:16,2022-07-12 18:57:16,0.028s,PASSED
+,,,,,,,
+Test Cases/booking/Negative/test case edit booking with invalid id,,,,2022-07-12 18:57:17,2022-07-12 18:57:19,2.658s,PASSED
+"response = sendRequest(findTestObject(""booking/Negative/edit booking with invalid id""))",,,,2022-07-12 18:57:18,2022-07-12 18:57:19,1.511s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:57:19,2022-07-12 18:57:19,0.030s,PASSED
+,,,,,,,
+Test Cases/booking/Negative/test case get booking by id invalid,,,,2022-07-12 18:57:19,2022-07-12 18:57:22,2.497s,PASSED
+"response = sendRequest(findTestObject(""booking/Negative/get booking by id invalid""))",,,,2022-07-12 18:57:20,2022-07-12 18:57:22,1.602s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:57:22,2022-07-12 18:57:22,0.015s,PASSED
+,,,,,,,
+Test Cases/booking/Positive/test case booking get data all,,,,2022-07-12 18:57:22,2022-07-12 18:57:25,3.668s,PASSED
+"response = sendRequest(findTestObject(""booking/Positive/booking get data all""))",,,,2022-07-12 18:57:23,2022-07-12 18:57:25,2.824s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:57:25,2022-07-12 18:57:25,0.016s,PASSED
+,,,,,,,
+Test Cases/booking/Positive/test case create booking,,,,2022-07-12 18:57:32,2022-07-12 18:57:34,1.508s,FAILED
+"response = sendRequest(findTestObject(""booking/Positive/create booking""))",,,,2022-07-12 18:57:32,2022-07-12 18:57:34,1.443s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:57:34,2022-07-12 18:57:34,0.032s,FAILED
+,,,,,,,
+Test Cases/booking/Positive/test case delete booking,,,,2022-07-12 18:57:34,2022-07-12 18:57:41,6.947s,PASSED
+"response = sendRequest(findTestObject(""booking/Positive/deleted booking""))",,,,2022-07-12 18:57:35,2022-07-12 18:57:41,5.788s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:57:41,2022-07-12 18:57:41,0.000s,PASSED
+,,,,,,,
+Test Cases/booking/Positive/test case get booking by id,,,,2022-07-12 18:57:41,2022-07-12 18:57:44,3.841s,PASSED
+"response = sendRequest(findTestObject(""booking/Positive/get booking by id""))",,,,2022-07-12 18:57:41,2022-07-12 18:57:44,2.825s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:57:44,2022-07-12 18:57:44,0.016s,PASSED
+"verifyElementPropertyValue(response, ""data.idBooking"", 134)",,,,2022-07-12 18:57:44,2022-07-12 18:57:44,0.140s,PASSED
+,,,,,,,
+Test Cases/booking/Positive/test case update booking,,,,2022-07-12 18:57:53,2022-07-12 18:57:55,2.265s,FAILED
+"response = sendRequest(findTestObject(""booking/Positive/update booking""))",,,,2022-07-12 18:57:53,2022-07-12 18:57:55,2.203s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:57:55,2022-07-12 18:57:55,0.030s,FAILED
+,,,,,,,
+Test Cases/kelompok/Negative/test case create kelompok by invalid id,,,,2022-07-12 18:57:55,2022-07-12 18:57:59,3.581s,PASSED
+"response = sendRequest(findTestObject(""kelompok/Negative/create kelompok with invalid id""))",,,,2022-07-12 18:57:57,2022-07-12 18:57:59,2.108s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:57:59,2022-07-12 18:57:59,0.016s,PASSED
+,,,,,,,
+Test Cases/kelompok/Negative/test case delete kelompok by invalid id,,,,2022-07-12 18:57:59,2022-07-12 18:58:02,3.121s,PASSED
+"response = sendRequest(findTestObject(""kelompok/Negative/delete kelompok by invalid id""))",,,,2022-07-12 18:57:59,2022-07-12 18:58:02,2.366s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:58:02,2022-07-12 18:58:02,0.005s,PASSED
+,,,,,,,
+Test Cases/kelompok/Negative/test case edit kelompok by invalid id,,,,2022-07-12 18:58:02,2022-07-12 18:58:04,2.218s,PASSED
+"response = sendRequest(findTestObject(""kelompok/Negative/update kelompok by invalid id""))",,,,2022-07-12 18:58:03,2022-07-12 18:58:04,1.384s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:58:04,2022-07-12 18:58:04,0.015s,PASSED
+,,,,,,,
+Test Cases/kelompok/Negative/test case get kelompok by invalid id,,,,2022-07-12 18:58:04,2022-07-12 18:58:07,2.498s,PASSED
+"response = sendRequest(findTestObject(""kelompok/Negative/get kelompok by invalid id""))",,,,2022-07-12 18:58:05,2022-07-12 18:58:07,1.603s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:58:07,2022-07-12 18:58:07,0.015s,PASSED
+,,,,,,,
+Test Cases/kelompok/Positive/test case create kelompok,,,,2022-07-12 18:58:07,2022-07-12 18:58:09,2.299s,PASSED
+"response = sendRequest(findTestObject(""kelompok/Positive/create kelompok""))",,,,2022-07-12 18:58:07,2022-07-12 18:58:09,1.431s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:09,2022-07-12 18:58:09,0.000s,PASSED
+"verifyElementPropertyValue(response, ""data.user.idUser"", 274)",,,,2022-07-12 18:58:09,2022-07-12 18:58:09,0.054s,PASSED
+,,,,,,,
+Test Cases/kelompok/Positive/test case deleted kelompok by id,,,,2022-07-12 18:58:09,2022-07-12 18:58:11,2.589s,PASSED
+"response = sendRequest(findTestObject(""kelompok/Positive/deleted kelompok by id""))",,,,2022-07-12 18:58:10,2022-07-12 18:58:11,1.699s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:11,2022-07-12 18:58:11,0.000s,PASSED
+,,,,,,,
+Test Cases/kelompok/Positive/test case kelompok get data all,,,,2022-07-12 18:58:11,2022-07-12 18:58:14,2.888s,PASSED
+"response = sendRequest(findTestObject(""kelompok/Positive/kelompok get data all""))",,,,2022-07-12 18:58:12,2022-07-12 18:58:14,1.946s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:14,2022-07-12 18:58:14,0.008s,PASSED
+,,,,,,,
+Test Cases/kelompok/Positive/test case kelompok get data by id,,,,2022-07-12 18:58:14,2022-07-12 18:58:17,2.485s,PASSED
+"response = sendRequest(findTestObject(""kelompok/Positive/get kelompok by id""))",,,,2022-07-12 18:58:15,2022-07-12 18:58:17,1.594s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:17,2022-07-12 18:58:17,0.016s,PASSED
+"verifyElementPropertyValue(response, ""data.idKelompok"", 14)",,,,2022-07-12 18:58:17,2022-07-12 18:58:17,0.053s,PASSED
+,,,,,,,
+Test Cases/kelompok/Positive/test case update kelompok,,,,2022-07-12 18:58:17,2022-07-12 18:58:19,2.473s,PASSED
+"response = sendRequest(findTestObject(""kelompok/Positive/update kelompok""))",,,,2022-07-12 18:58:18,2022-07-12 18:58:19,1.485s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:19,2022-07-12 18:58:19,0.007s,PASSED
+"verifyElementPropertyValue(response, ""data.idKelompok"", 314)",,,,2022-07-12 18:58:19,2022-07-12 18:58:19,0.037s,PASSED
+,,,,,,,
+Test Cases/session/Negative/test case create session by invalid id,,,,2022-07-12 18:58:19,2022-07-12 18:58:22,2.870s,PASSED
+"response = sendRequest(findTestObject(""session/Negative/create session by invalid id""))",,,,2022-07-12 18:58:21,2022-07-12 18:58:22,1.427s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:58:22,2022-07-12 18:58:22,0.005s,PASSED
+,,,,,,,
+Test Cases/session/Negative/test case delete session by invalid id,,,,2022-07-12 18:58:22,2022-07-12 18:58:25,2.556s,PASSED
+"response = sendRequest(findTestObject(""session/Negative/delete session by invalid id""))",,,,2022-07-12 18:58:23,2022-07-12 18:58:25,1.453s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:58:25,2022-07-12 18:58:25,0.000s,PASSED
+,,,,,,,
+Test Cases/session/Negative/test case edit session by invalid id,,,,2022-07-12 18:58:25,2022-07-12 18:58:27,2.332s,PASSED
+"response = sendRequest(findTestObject(""session/Negative/update session by invalid id""))",,,,2022-07-12 18:58:26,2022-07-12 18:58:27,1.504s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:58:27,2022-07-12 18:58:27,0.015s,PASSED
+,,,,,,,
+Test Cases/session/Negative/test case get session by invalid date and city,,,,2022-07-12 18:58:27,2022-07-12 18:58:30,2.571s,PASSED
+"response = sendRequest(findTestObject(""session/Negative/get session by invalid date and city""))",,,,2022-07-12 18:58:28,2022-07-12 18:58:30,1.440s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:58:30,2022-07-12 18:58:30,0.000s,PASSED
+,,,,,,,
+Test Cases/session/Negative/test case get session by invalid id,,,,2022-07-12 18:58:30,2022-07-12 18:58:32,2.126s,PASSED
+"response = sendRequest(findTestObject(""session/Negative/get session by invalid id""))",,,,2022-07-12 18:58:30,2022-07-12 18:58:32,1.360s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:58:32,2022-07-12 18:58:32,0.000s,PASSED
+,,,,,,,
+Test Cases/session/Positive/test case create session,,,,2022-07-12 18:58:37,2022-07-12 18:58:38,1.473s,FAILED
+"response = sendRequest(findTestObject(""session/Positive/create session""))",,,,2022-07-12 18:58:37,2022-07-12 18:58:38,1.434s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:38,2022-07-12 18:58:38,0.008s,FAILED
+,,,,,,,
+Test Cases/session/Positive/test case delete session,,,,2022-07-12 18:58:39,2022-07-12 18:58:42,3.535s,PASSED
+"response = sendRequest(findTestObject(""session/Positive/deleted session""))",,,,2022-07-12 18:58:39,2022-07-12 18:58:42,2.751s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:42,2022-07-12 18:58:42,0.018s,PASSED
+,,,,,,,
+Test Cases/session/Positive/test case get session by date and city,,,,2022-07-12 18:58:42,2022-07-12 18:58:45,2.449s,PASSED
+"response = sendRequest(findTestObject(""session/Positive/get session by date and city""))",,,,2022-07-12 18:58:43,2022-07-12 18:58:44,1.480s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:44,2022-07-12 18:58:44,0.016s,PASSED
+"verifyElementPropertyValue(response, ""data[0].vaksin.user.kota"", ""Surakarta"")",,,,2022-07-12 18:58:44,2022-07-12 18:58:44,0.157s,PASSED
+,,,,,,,
+Test Cases/session/Positive/test case get session by id,,,,2022-07-12 18:58:45,2022-07-12 18:58:47,2.306s,PASSED
+"response = sendRequest(findTestObject(""session/Positive/get session by id""))",,,,2022-07-12 18:58:45,2022-07-12 18:58:47,1.491s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:47,2022-07-12 18:58:47,0.001s,PASSED
+"verifyElementPropertyValue(response, ""data.idSession"", 74)",,,,2022-07-12 18:58:47,2022-07-12 18:58:47,0.063s,PASSED
+,,,,,,,
+Test Cases/session/Positive/test case session get data all,,,,2022-07-12 18:58:47,2022-07-12 18:58:49,2.621s,PASSED
+"response = sendRequest(findTestObject(""session/Positive/session get data all""))",,,,2022-07-12 18:58:48,2022-07-12 18:58:49,1.819s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:49,2022-07-12 18:58:49,0.000s,PASSED
+,,,,,,,
+Test Cases/session/Positive/test case update session,,,,2022-07-12 18:58:55,2022-07-12 18:58:57,1.671s,FAILED
+"response = sendRequest(findTestObject(""session/Positive/update session""))",,,,2022-07-12 18:58:55,2022-07-12 18:58:57,1.625s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:58:57,2022-07-12 18:58:57,0.030s,FAILED
+,,,,,,,
+Test Cases/user/Negative/test case delete user by invalid id,,,,2022-07-12 18:58:57,2022-07-12 18:59:00,2.975s,PASSED
+"response = sendRequest(findTestObject(""user/Negative/delete user by invalid id""))",,,,2022-07-12 18:58:57,2022-07-12 18:59:00,2.193s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:59:00,2022-07-12 18:59:00,0.000s,PASSED
+,,,,,,,
+Test Cases/user/Negative/test case get user by invalid city,,,,2022-07-12 18:59:00,2022-07-12 18:59:02,2.379s,PASSED
+"response = sendRequest(findTestObject(""user/Negative/get user by invalid city""))",,,,2022-07-12 18:59:00,2022-07-12 18:59:02,1.539s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:59:02,2022-07-12 18:59:02,0.000s,PASSED
+,,,,,,,
+Test Cases/user/Negative/test case get user by invalid id,,,,2022-07-12 18:59:02,2022-07-12 18:59:04,2.219s,PASSED
+"response = sendRequest(findTestObject(""user/Negative/get user by invalid id""))",,,,2022-07-12 18:59:03,2022-07-12 18:59:04,1.449s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:59:04,2022-07-12 18:59:04,0.003s,PASSED
+,,,,,,,
+Test Cases/user/Positive/test case create health,,,,2022-07-12 18:59:04,2022-07-12 18:59:07,2.808s,PASSED
+"response = sendRequest(findTestObject(""user/Positive/create health""))",,,,2022-07-12 18:59:05,2022-07-12 18:59:07,1.964s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:07,2022-07-12 18:59:07,0.016s,PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""rs_ceriamedika@gmail.com"")",,,,2022-07-12 18:59:07,2022-07-12 18:59:07,0.062s,PASSED
+,,,,,,,
+Test Cases/user/Positive/test case create user,,,,2022-07-12 18:59:07,2022-07-12 18:59:10,3.073s,PASSED
+"response = sendRequest(findTestObject(""user/Positive/create user"", [""variable"":""""]))",,,,2022-07-12 18:59:08,2022-07-12 18:59:10,2.168s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:10,2022-07-12 18:59:10,0.016s,PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""jakejohn@email.com"")",,,,2022-07-12 18:59:10,2022-07-12 18:59:10,0.059s,PASSED
+,,,,,,,
+Test Cases/user/Positive/test case deleted user by id,,,,2022-07-12 18:59:10,2022-07-12 18:59:13,2.515s,PASSED
+"response = sendRequest(findTestObject(""user/Positive/deleted user by id""))",,,,2022-07-12 18:59:11,2022-07-12 18:59:13,1.750s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:13,2022-07-12 18:59:13,0.000s,PASSED
+,,,,,,,
+Test Cases/user/Positive/test case update data health,,,,2022-07-12 18:59:13,2022-07-12 18:59:15,2.388s,PASSED
+"response = sendRequest(findTestObject(""user/Positive/update data health""))",,,,2022-07-12 18:59:13,2022-07-12 18:59:15,1.570s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:15,2022-07-12 18:59:15,0.001s,PASSED
+"verifyElementPropertyValue(response, ""data.idUser"", 14)",,,,2022-07-12 18:59:15,2022-07-12 18:59:15,0.062s,PASSED
+,,,,,,,
+Test Cases/user/Positive/test case update data user,,,,2022-07-12 18:59:15,2022-07-12 18:59:17,2.351s,PASSED
+"response = sendRequest(findTestObject(""user/Positive/update data user""))",,,,2022-07-12 18:59:16,2022-07-12 18:59:17,1.388s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:17,2022-07-12 18:59:17,0.016s,PASSED
+"verifyElementPropertyValue(response, ""data.idUser"", 124)",,,,2022-07-12 18:59:17,2022-07-12 18:59:17,0.181s,PASSED
+,,,,,,,
+Test Cases/user/Positive/test case user get data all,,,,2022-07-12 18:59:17,2022-07-12 18:59:20,2.655s,PASSED
+"response = sendRequest(findTestObject(""user/Positive/user get data all""))",,,,2022-07-12 18:59:18,2022-07-12 18:59:20,1.787s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:20,2022-07-12 18:59:20,0.000s,PASSED
+,,,,,,,
+Test Cases/user/Positive/test case user get user by city,,,,2022-07-12 18:59:20,2022-07-12 18:59:23,2.520s,PASSED
+"response = sendRequest(findTestObject(""user/Positive/get user by city""))",,,,2022-07-12 18:59:21,2022-07-12 18:59:22,1.459s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:22,2022-07-12 18:59:22,0.003s,PASSED
+"verifyElementPropertyValue(response, ""data[0].kota"", ""Bali"")",,,,2022-07-12 18:59:22,2022-07-12 18:59:23,0.290s,PASSED
+,,,,,,,
+Test Cases/user/Positive/test case user get user by id,,,,2022-07-12 18:59:23,2022-07-12 18:59:25,2.260s,PASSED
+"response = sendRequest(findTestObject(""user/Positive/user get user by id""))",,,,2022-07-12 18:59:23,2022-07-12 18:59:25,1.398s,PASSED
+"verifyElementPropertyValue(response, ""data.idUser"", 14)",,,,2022-07-12 18:59:25,2022-07-12 18:59:25,0.056s,PASSED
+,,,,,,,
+Test Cases/vaksin/Negative/test case create vaksin by invalid id,,,,2022-07-12 18:59:25,2022-07-12 18:59:28,2.834s,PASSED
+"response = sendRequest(findTestObject(""vaksin/Negative/create vaksin by invalid id""))",,,,2022-07-12 18:59:26,2022-07-12 18:59:28,2.051s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:59:28,2022-07-12 18:59:28,0.001s,PASSED
+,,,,,,,
+Test Cases/vaksin/Negative/test case delete vaksin by invalid id,,,,2022-07-12 18:59:28,2022-07-12 18:59:30,2.394s,PASSED
+"response = sendRequest(findTestObject(""vaksin/Negative/delete vaksin by invalid id""))",,,,2022-07-12 18:59:29,2022-07-12 18:59:30,1.641s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:59:30,2022-07-12 18:59:30,0.003s,PASSED
+,,,,,,,
+Test Cases/vaksin/Negative/test case edit vaksin by invalid id,,,,2022-07-12 18:59:30,2022-07-12 18:59:34,3.613s,PASSED
+"response = sendRequest(findTestObject(""vaksin/Negative/edit vaksin by invalid id""))",,,,2022-07-12 18:59:31,2022-07-12 18:59:34,2.845s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:59:34,2022-07-12 18:59:34,0.002s,PASSED
+,,,,,,,
+Test Cases/vaksin/Negative/test case get vaksin by invalid id,,,,2022-07-12 18:59:34,2022-07-12 18:59:36,2.277s,PASSED
+"response = sendRequest(findTestObject(""vaksin/Negative/get vaksin by invalid id""))",,,,2022-07-12 18:59:35,2022-07-12 18:59:36,1.383s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-07-12 18:59:36,2022-07-12 18:59:36,0.000s,PASSED
+,,,,,,,
+Test Cases/vaksin/Positive/test case create vaksin,,,,2022-07-12 18:59:36,2022-07-12 18:59:39,2.402s,PASSED
+"response = sendRequest(findTestObject(""vaksin/Positive/create vaksin""))",,,,2022-07-12 18:59:37,2022-07-12 18:59:39,1.619s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:39,2022-07-12 18:59:39,0.001s,PASSED
+"verifyElementPropertyValue(response, ""data.user.idUser"", 144)",,,,2022-07-12 18:59:39,2022-07-12 18:59:39,0.047s,PASSED
+,,,,,,,
+Test Cases/vaksin/Positive/test case deleted vaksin,,,,2022-07-12 18:59:39,2022-07-12 18:59:41,2.302s,PASSED
+"response = sendRequest(findTestObject(""vaksin/Positive/delete vaksin""))",,,,2022-07-12 18:59:39,2022-07-12 18:59:41,1.454s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:41,2022-07-12 18:59:41,0.003s,PASSED
+,,,,,,,
+Test Cases/vaksin/Positive/test case update vaksin,,,,2022-07-12 18:59:41,2022-07-12 18:59:44,2.907s,PASSED
+"response = sendRequest(findTestObject(""vaksin/Positive/update vaksin""))",,,,2022-07-12 18:59:42,2022-07-12 18:59:44,2.107s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:44,2022-07-12 18:59:44,0.003s,PASSED
+"verifyElementPropertyValue(response, ""data.idVaksin"", 34)",,,,2022-07-12 18:59:44,2022-07-12 18:59:44,0.047s,PASSED
+,,,,,,,
+Test Cases/vaksin/Positive/test case vaksin get data all,,,,2022-07-12 18:59:44,2022-07-12 18:59:46,2.653s,PASSED
+"response = sendRequest(findTestObject(""vaksin/Positive/vaksin get data all""))",,,,2022-07-12 18:59:45,2022-07-12 18:59:46,1.882s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-12 18:59:46,2022-07-12 18:59:46,0.000s,PASSED
+,,,,,,,
+Test Cases/vaksin/Positive/test case vaksin get data by id,,,,2022-07-12 18:59:48,2022-07-12 18:59:48,0.063s,FAILED
+"response = sendRequest(findTestObject(""vaksin/vaksin get data by id""))",,,,2022-07-12 18:59:48,2022-07-12 18:59:48,0.016s,FAILED

@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/Login/negative/test case login with empty email and password","testCaseId":"Test Cases/Login/negative/test case login with empty email and password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with empty email and valid password","testCaseId":"Test Cases/Login/negative/test case login with empty email and valid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with invalid email and password","testCaseId":"Test Cases/Login/negative/test case login with invalid email and password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with invalid email and valid password","testCaseId":"Test Cases/Login/negative/test case login with invalid email and valid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with valid email and empty password","testCaseId":"Test Cases/Login/negative/test case login with valid email and empty password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with valid email and invalid password","testCaseId":"Test Cases/Login/negative/test case login with valid email and invalid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/positive/test case login with valid email and password","testCaseId":"Test Cases/Login/positive/test case login with valid email and password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Logout/positive/test case logout","testCaseId":"Test Cases/Logout/positive/test case logout","iterationVariableName":""}

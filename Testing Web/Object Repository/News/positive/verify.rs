@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify</name>
+   <tag></tag>
+   <elementGuidId>e572867f-b445-4582-89a5-4be1cc9ad44b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[5]/div[2]/article/div[5]/div[1]/p[29]/span/text()</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[5]/div[2]/article/div[5]/div[1]/p[29]/span/text()</value>
+      <webElementGuid>cf98d25f-528f-4b0e-a587-3f78fcca5fae</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

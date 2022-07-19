@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case manage booking add valid name and invalid stock vaccine</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52d1468c-01db-475c-b125-b103b81e3c08</testCaseGuid>
+</TestCaseEntity>

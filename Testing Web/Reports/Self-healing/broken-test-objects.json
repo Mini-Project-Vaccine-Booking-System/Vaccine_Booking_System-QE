@@ -1,3 +1,64 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Vaksin Covid-19 Universal Pfizer-BioNT_c1b355/p_REPUBLIKA.CO.ID, JAKARTA -- Kandidat vaks_90399f",
+      "brokenLocator": "//div[@id\u003d\u0027wrapper\u0027]/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[4]/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Vaksin universal dapat berikan perlindungan terhadap semua varian SARS-CoV-2.\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Vaksin Covid-19 Universal Pfizer-BioNT_c1b355/p_REPUBLIKA.CO.ID, JAKARTA -- Kandidat vaks_90399f_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_VaksinQu/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_VaksinQu/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_VaksinQu/p_2022-09-12  080000 - 090000  Astrazeneca",
+      "brokenLocator": "//li[@id\u003d\u00271454\u0027]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u00272022-09-12\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_VaksinQu/p_2022-09-12  080000 - 090000  Astrazeneca_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_VaksinQu/p_2022-06-30  060000 - 090000  Sinovac",
+      "brokenLocator": "//li[@id\u003d\u00271204\u0027]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u00272022-06-30\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_VaksinQu/p_2022-06-30  060000 - 090000  Sinovac_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_VaksinQu/body_You need to enable JavaScript to run t_467605",
+      "brokenLocator": "//*[@id\u003d\"root\"]/div/main/div/div[4]/div[1]/div/div/div[3]/div/div/svg",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//body",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_VaksinQu/body_You need to enable JavaScript to run t_467605_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_VaksinQu/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027rido salawi\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Aurora Doe\u0027])[2]/following::*[name()\u003d\u0027svg\u0027][2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
 }

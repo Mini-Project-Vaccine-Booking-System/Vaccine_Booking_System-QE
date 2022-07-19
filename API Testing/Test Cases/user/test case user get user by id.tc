@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test case user get user by id</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ceb32cf8-4d4c-4c22-aec4-6c3111d5c644</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test case update data health</name>
+   <name>test case auth post login health</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d803d38b-863a-4db5-b142-f817d5cce821</testCaseGuid>
+   <testCaseGuid>224a3eeb-8866-4102-bf94-9136fa47cab5</testCaseGuid>
 </TestCaseEntity>

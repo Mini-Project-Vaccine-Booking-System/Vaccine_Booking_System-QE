@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test case user get user by city</name>
+   <name>test case get user health</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0e1ba5b6-859f-4775-bcea-bc375a120783</testCaseGuid>
+   <testCaseGuid>47d69299-6654-4350-bb49-725bff7a9e29</testCaseGuid>
 </TestCaseEntity>

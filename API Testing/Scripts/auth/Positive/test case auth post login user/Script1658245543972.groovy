@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('user/create health'))
+response = WS.sendRequest(findTestObject('auth/Positive/post login user'))
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'email', 'rs_ceriamedika@gmail.com')
+WS.verifyElementPropertyValue(response, 'user.username', 'anjasmara@gmail.com')
 

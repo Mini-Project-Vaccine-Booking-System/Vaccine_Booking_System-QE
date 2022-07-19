@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('user/deleted user by id'))
+response = WS.sendRequest(findTestObject('user/Positive/get user health'))
 
 WS.verifyResponseStatusCode(response, 200)
 

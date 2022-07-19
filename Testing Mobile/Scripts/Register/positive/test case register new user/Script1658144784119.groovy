@@ -19,17 +19,67 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\\\Users\\\\A\\\\Downloads\\\\app-release (3).apk', false)
 
-Mobile.tap(findTestObject('Register/positive/button daftar'), 3)
+Mobile.tap(findTestObject('Register/positive/button daftar'), 0)
 
-Mobile.setText(findTestObject('null'), 'frans@gmail.com', 3)
+Mobile.tap(findTestObject('Login/positive/input email'), 0)
 
-Mobile.setText(findTestObject('null'), 'Frans1234', 3)
+Mobile.setText(findTestObject('Login/positive/input email'), 'nicholas@gmail.com', 0)
 
-Mobile.tap(findTestObject('Register/positive/button daftar'), 3)
+Mobile.tap(findTestObject('Login/positive/input password'), 0)
 
-Mobile.tap(findTestObject('Profile/unggah foto'), 3)
+Mobile.setText(findTestObject('Login/positive/input password'), 'Frans1234', 0)
 
-Mobile.tap(findTestObject(null), 0)
+Mobile.pressBack()
 
-Mobile.setText(findTestObject(null), '', 0)
+Mobile.tap(findTestObject('Register/positive/button daftar'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Register/positive/button icon foto'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Register/positive/image'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Register/positive/nama lengkap'), 0)
+
+Mobile.setText(findTestObject('Register/positive/nama lengkap'), 'Purnomo', 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Register/positive/nik'), 0)
+
+Mobile.setText(findTestObject('Register/positive/nik'), '3319087890985690', 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Register/positive/tanggal lahir'), 0)
+
+Mobile.tap(findTestObject('Register/positive/icon kalender'), 0)
+
+Mobile.setText(findTestObject('Register/positive/input date'), '09/09/1998', 0)
+
+Mobile.tap(findTestObject('Register/positive/ok'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Register/positive/no hp'), 0)
+
+Mobile.setText(findTestObject('Register/positive/no hp'), '089098909890', 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Register/positive/jenis kelamin'), 0)
+
+Mobile.tap(findTestObject('Register/positive/laki2'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Register/positive/simpan'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>icon klender</name>
+   <name>tanggal lahir</name>
    <tag></tag>
-   <elementGuidId>f1211d25-ee03-41ee-91b1-f07205d87884</elementGuidId>
+   <elementGuidId>cd88740f-d11d-4207-af22-4b2f37fa66e2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.Button[@content-desc=&quot;Switch to input&quot;]</locator>
+   <locator>//android.view.View[5]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

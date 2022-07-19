@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>jk</name>
+   <name>laki2</name>
    <tag></tag>
-   <elementGuidId>6e8d1598-8157-4eed-8027-ddb20743017e</elementGuidId>
+   <elementGuidId>5efbd266-cd03-482e-ad37-4cf80b851f81</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.Button[@content-desc=&quot;Jenis Kelamin&quot;]</locator>
+   <locator>//android.view.View[@content-desc=&quot;Laki-Laki&quot;]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

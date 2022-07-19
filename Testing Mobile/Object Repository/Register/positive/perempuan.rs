@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>tgl lhr</name>
+   <name>perempuan</name>
    <tag></tag>
-   <elementGuidId>cd88740f-d11d-4207-af22-4b2f37fa66e2</elementGuidId>
+   <elementGuidId>66197e03-0f2f-4850-94ff-48cdd85a75ad</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.view.View[5]</locator>
+   <locator>//android.view.View[@content-desc=&quot;Perempuan&quot;]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

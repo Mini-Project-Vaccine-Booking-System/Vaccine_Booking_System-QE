@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-kelompok,,,,2022-06-27 12:01:04,2022-06-27 12:01:15,10.286s,PASSED
-,,,,,,,
-Test Cases/kelompok/test case kelompok get data all,,,,2022-06-27 12:01:05,2022-06-27 12:01:15,9.240s,PASSED
-"response = sendRequest(findTestObject(""kelompok/kelompok get data all""))",,,,2022-06-27 12:01:07,2022-06-27 12:01:14,7.369s,PASSED
-"verifyResponseStatusCode(response, 200)",,,,2022-06-27 12:01:14,2022-06-27 12:01:14,0.149s,PASSED
-"verifyElementPropertyValue(response, ""[0].idKelompok"", 4)",,,,2022-06-27 12:01:14,2022-06-27 12:01:15,0.309s,PASSED

@@ -1,0 +1,25 @@
+{"testCaseName":"Test Cases/Covid information/positive/test case information gejala covid","testCaseId":"Test Cases/Covid information/positive/test case information gejala covid","iterationVariableName":""}
+{"testCaseName":"Test Cases/Covid information/positive/test case information pencegahan covid","testCaseId":"Test Cases/Covid information/positive/test case information pencegahan covid","iterationVariableName":""}
+{"testCaseName":"Test Cases/Covid information/positive/test case information perawatan - isolasi mandiri","testCaseId":"Test Cases/Covid information/positive/test case information perawatan - isolasi mandiri","iterationVariableName":""}
+{"testCaseName":"Test Cases/Covid information/positive/test case information perawatan - terapi medis","testCaseId":"Test Cases/Covid information/positive/test case information perawatan - terapi medis","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with empty email and password","testCaseId":"Test Cases/Login/negative/test case login with empty email and password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with empty email and valid password","testCaseId":"Test Cases/Login/negative/test case login with empty email and valid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with invalid email and password","testCaseId":"Test Cases/Login/negative/test case login with invalid email and password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with invalid email and valid password","testCaseId":"Test Cases/Login/negative/test case login with invalid email and valid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with valid email and empty password","testCaseId":"Test Cases/Login/negative/test case login with valid email and empty password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/negative/test case login with valid email and invalid password","testCaseId":"Test Cases/Login/negative/test case login with valid email and invalid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/positive/test case login with valid email and password","testCaseId":"Test Cases/Login/positive/test case login with valid email and password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Logout/negative/test case logout","testCaseId":"Test Cases/Logout/negative/test case logout","iterationVariableName":""}
+{"testCaseName":"Test Cases/Logout/positive/test case logout","testCaseId":"Test Cases/Logout/positive/test case logout","iterationVariableName":""}
+{"testCaseName":"Test Cases/Nearest health facility/positive/test case nearest health facility base current city","testCaseId":"Test Cases/Nearest health facility/positive/test case nearest health facility base current city","iterationVariableName":""}
+{"testCaseName":"Test Cases/Nearest health facility/positive/test case see health facility today","testCaseId":"Test Cases/Nearest health facility/positive/test case see health facility today","iterationVariableName":""}
+{"testCaseName":"Test Cases/Nearest health facility/positive/test case see list health facility today","testCaseId":"Test Cases/Nearest health facility/positive/test case see list health facility today","iterationVariableName":""}
+{"testCaseName":"Test Cases/News/positive/test case see all news","testCaseId":"Test Cases/News/positive/test case see all news","iterationVariableName":""}
+{"testCaseName":"Test Cases/News/positive/test case see news","testCaseId":"Test Cases/News/positive/test case see news","iterationVariableName":""}
+{"testCaseName":"Test Cases/Register/positive/test case register new user","testCaseId":"Test Cases/Register/positive/test case register new user","iterationVariableName":""}
+{"testCaseName":"Test Cases/Vaccine ticket/negative/test case cancel bagikan ticket vaccine","testCaseId":"Test Cases/Vaccine ticket/negative/test case cancel bagikan ticket vaccine","iterationVariableName":""}
+{"testCaseName":"Test Cases/Vaccine ticket/negative/test case cancel simpan ticket vaccine","testCaseId":"Test Cases/Vaccine ticket/negative/test case cancel simpan ticket vaccine","iterationVariableName":""}
+{"testCaseName":"Test Cases/Vaccine ticket/positive/test case bagikan ticket vaccine","testCaseId":"Test Cases/Vaccine ticket/positive/test case bagikan ticket vaccine","iterationVariableName":""}
+{"testCaseName":"Test Cases/Vaccine ticket/positive/test case see detail ticket vaccine","testCaseId":"Test Cases/Vaccine ticket/positive/test case see detail ticket vaccine","iterationVariableName":""}
+{"testCaseName":"Test Cases/Vaccine ticket/positive/test case see list ticket vaccine","testCaseId":"Test Cases/Vaccine ticket/positive/test case see list ticket vaccine","iterationVariableName":""}
+{"testCaseName":"Test Cases/Vaccine ticket/positive/test case simpan ticket vaccine","testCaseId":"Test Cases/Vaccine ticket/positive/test case simpan ticket vaccine","iterationVariableName":""}

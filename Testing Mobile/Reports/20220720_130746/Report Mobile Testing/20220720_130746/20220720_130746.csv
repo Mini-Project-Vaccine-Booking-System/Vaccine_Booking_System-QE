@@ -1,0 +1,385 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Report Mobile Testing,,,,2022-07-20 13:08:03,2022-07-20 13:40:45,32m - 41.898s,FAILED
+,,,,,,,
+Test Cases/Covid information/positive/test case information gejala covid,,,,2022-07-20 13:08:04,2022-07-20 13:10:05,2m - 0.918s,PASSED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:08:06,2022-07-20 13:09:43,1m - 37.261s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:09:43,2022-07-20 13:09:46,3.197s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:09:46,2022-07-20 13:09:49,2.411s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 0)",,,,2022-07-20 13:09:49,2022-07-20 13:09:51,2.740s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:09:51,2022-07-20 13:09:52,0.935s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 0)",,,,2022-07-20 13:09:52,2022-07-20 13:09:54,2.085s,PASSED
+pressBack(),,,,2022-07-20 13:09:54,2022-07-20 13:09:55,0.805s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:09:55,2022-07-20 13:09:57,2.185s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:09:57,2022-07-20 13:10:00,3.129s,PASSED
+"tap(findTestObject(""Information/button informasi""), 0)",,,,2022-07-20 13:10:00,2022-07-20 13:10:01,0.771s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:10:01,2022-07-20 13:10:04,3.009s,PASSED
+closeApplication(),,,,2022-07-20 13:10:04,2022-07-20 13:10:05,1.040s,PASSED
+,,,,,,,
+Test Cases/Covid information/positive/test case information pencegahan covid,,,,2022-07-20 13:13:15,2022-07-20 13:14:19,1m - 4.006s,FAILED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:13:15,2022-07-20 13:13:29,14.201s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:13:29,2022-07-20 13:13:31,1.911s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:13:31,2022-07-20 13:13:34,2.447s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 0)",,,,2022-07-20 13:13:34,2022-07-20 13:13:36,1.978s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:13:36,2022-07-20 13:13:37,1.368s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 0)",,,,2022-07-20 13:13:37,2022-07-20 13:13:40,2.836s,PASSED
+pressBack(),,,,2022-07-20 13:13:40,2022-07-20 13:13:40,0.667s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:13:40,2022-07-20 13:13:44,3.217s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:13:44,2022-07-20 13:13:47,3.003s,PASSED
+"tap(findTestObject(""Information/button informasi""), 0)",,,,2022-07-20 13:13:47,2022-07-20 13:13:47,0.860s,PASSED
+"tap(findTestObject(""Information/button pencegahan""), 0)",,,,2022-07-20 13:13:47,2022-07-20 13:14:19,31.180s,FAILED
+,,,,,,,
+Test Cases/Covid information/positive/test case information perawatan - isolasi mandiri,,,,2022-07-20 13:16:58,2022-07-20 13:17:49,50.736s,FAILED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:16:58,2022-07-20 13:17:17,18.755s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:17:17,2022-07-20 13:17:49,31.880s,FAILED
+,,,,,,,
+Test Cases/Covid information/positive/test case information perawatan - terapi medis,,,,2022-07-20 13:20:43,2022-07-20 13:21:36,52.395s,FAILED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:20:43,2022-07-20 13:20:58,14.966s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:20:58,2022-07-20 13:21:02,3.412s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:21:02,2022-07-20 13:21:03,1.822s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 0)",,,,2022-07-20 13:21:03,2022-07-20 13:21:06,2.394s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:21:06,2022-07-20 13:21:07,1.331s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 0)",,,,2022-07-20 13:21:07,2022-07-20 13:21:09,1.974s,PASSED
+pressBack(),,,,2022-07-20 13:21:09,2022-07-20 13:21:10,0.692s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:21:10,2022-07-20 13:21:12,2.345s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:21:12,2022-07-20 13:21:15,3.010s,PASSED
+"tap(findTestObject(""Information/button informasi""), 0)",,,,2022-07-20 13:21:15,2022-07-20 13:21:16,0.967s,PASSED
+"tap(findTestObject(""Information/button perawatan""), 0)",,,,2022-07-20 13:21:16,2022-07-20 13:21:36,19.414s,FAILED
+,,,,,,,
+Test Cases/Login/negative/test case login with empty email and password,,,,2022-07-20 13:21:36,2022-07-20 13:22:08,32.192s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:21:36,2022-07-20 13:21:51,14.513s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:21:51,2022-07-20 13:21:53,2.004s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:21:53,2022-07-20 13:21:55,2.547s,PASSED
+"setText(findTestObject(""Login/positive/input email""), """", 0)",,,,2022-07-20 13:21:55,2022-07-20 13:21:58,2.216s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:21:58,2022-07-20 13:21:58,0.688s,PASSED
+"setText(findTestObject(""Login/positive/input password""), """", 0)",,,,2022-07-20 13:21:58,2022-07-20 13:22:00,1.290s,PASSED
+pressBack(),,,,2022-07-20 13:22:00,2022-07-20 13:22:01,0.960s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:22:01,2022-07-20 13:22:02,1.128s,PASSED
+"delay(4, STOP_ON_FAILURE)",,,,2022-07-20 13:22:02,2022-07-20 13:22:06,4.004s,PASSED
+"verifyElementVisible(findTestObject(""Login/negative/verify text""), 0)",,,,2022-07-20 13:22:06,2022-07-20 13:22:07,1.629s,PASSED
+closeApplication(),,,,2022-07-20 13:22:07,2022-07-20 13:22:08,0.405s,PASSED
+,,,,,,,
+Test Cases/Login/negative/test case login with empty email and valid password,,,,2022-07-20 13:22:08,2022-07-20 13:22:53,44.993s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:22:08,2022-07-20 13:22:35,26.180s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:22:35,2022-07-20 13:22:38,3.145s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:22:38,2022-07-20 13:22:40,2.495s,PASSED
+"setText(findTestObject(""Login/positive/input email""), """", 0)",,,,2022-07-20 13:22:40,2022-07-20 13:22:42,1.549s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:22:42,2022-07-20 13:22:42,0.612s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""12345678"", 0)",,,,2022-07-20 13:22:42,2022-07-20 13:22:44,1.315s,PASSED
+pressBack(),,,,2022-07-20 13:22:44,2022-07-20 13:22:44,0.685s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:22:44,2022-07-20 13:22:47,2.751s,PASSED
+"delay(4, STOP_ON_FAILURE)",,,,2022-07-20 13:22:47,2022-07-20 13:22:51,4.003s,PASSED
+"verifyElementVisible(findTestObject(""Login/negative/verify text""), 0)",,,,2022-07-20 13:22:51,2022-07-20 13:22:52,1.242s,PASSED
+closeApplication(),,,,2022-07-20 13:22:52,2022-07-20 13:22:53,0.386s,PASSED
+,,,,,,,
+Test Cases/Login/negative/test case login with invalid email and password,,,,2022-07-20 13:22:53,2022-07-20 13:23:40,47.040s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:22:53,2022-07-20 13:23:18,24.873s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:23:18,2022-07-20 13:23:21,2.991s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:23:21,2022-07-20 13:23:24,2.758s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjas"", 0)",,,,2022-07-20 13:23:24,2022-07-20 13:23:27,3.037s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:23:27,2022-07-20 13:23:29,1.917s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""1234"", 0)",,,,2022-07-20 13:23:29,2022-07-20 13:23:30,1.344s,PASSED
+pressBack(),,,,2022-07-20 13:23:30,2022-07-20 13:23:32,1.632s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:23:32,2022-07-20 13:23:34,1.509s,PASSED
+"delay(4, STOP_ON_FAILURE)",,,,2022-07-20 13:23:34,2022-07-20 13:23:38,4.008s,PASSED
+"verifyElementVisible(findTestObject(""Login/negative/verify text""), 0)",,,,2022-07-20 13:23:38,2022-07-20 13:23:40,1.949s,PASSED
+closeApplication(),,,,2022-07-20 13:23:40,2022-07-20 13:23:40,0.346s,PASSED
+,,,,,,,
+Test Cases/Login/negative/test case login with invalid email and valid password,,,,2022-07-20 13:23:40,2022-07-20 13:24:25,44.918s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:23:41,2022-07-20 13:24:07,26.238s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:24:07,2022-07-20 13:24:09,1.894s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:24:09,2022-07-20 13:24:12,2.995s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara"", 0)",,,,2022-07-20 13:24:12,2022-07-20 13:24:13,1.801s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:24:13,2022-07-20 13:24:15,2.013s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 0)",,,,2022-07-20 13:24:15,2022-07-20 13:24:17,1.307s,PASSED
+pressBack(),,,,2022-07-20 13:24:17,2022-07-20 13:24:18,0.990s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:24:18,2022-07-20 13:24:19,1.684s,PASSED
+"delay(4, STOP_ON_FAILURE)",,,,2022-07-20 13:24:19,2022-07-20 13:24:23,4.004s,PASSED
+"verifyElementVisible(findTestObject(""Login/negative/verify text""), 0)",,,,2022-07-20 13:24:23,2022-07-20 13:24:24,0.966s,PASSED
+closeApplication(),,,,2022-07-20 13:24:24,2022-07-20 13:24:25,0.364s,PASSED
+,,,,,,,
+Test Cases/Login/negative/test case login with valid email and empty password,,,,2022-07-20 13:24:25,2022-07-20 13:25:10,45.263s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:24:25,2022-07-20 13:24:51,25.759s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:24:51,2022-07-20 13:24:53,1.758s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:24:53,2022-07-20 13:24:55,2.171s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 0)",,,,2022-07-20 13:24:55,2022-07-20 13:24:58,2.388s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:24:58,2022-07-20 13:24:59,1.534s,PASSED
+"setText(findTestObject(""Login/positive/input password""), """", 0)",,,,2022-07-20 13:24:59,2022-07-20 13:25:01,2.287s,PASSED
+pressBack(),,,,2022-07-20 13:25:01,2022-07-20 13:25:02,0.245s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:25:02,2022-07-20 13:25:04,2.664s,PASSED
+"delay(4, STOP_ON_FAILURE)",,,,2022-07-20 13:25:04,2022-07-20 13:25:08,4.004s,PASSED
+"verifyElementVisible(findTestObject(""Login/negative/verify text""), 0)",,,,2022-07-20 13:25:08,2022-07-20 13:25:10,1.352s,PASSED
+closeApplication(),,,,2022-07-20 13:25:10,2022-07-20 13:25:10,0.394s,PASSED
+,,,,,,,
+Test Cases/Login/negative/test case login with valid email and invalid password,,,,2022-07-20 13:25:10,2022-07-20 13:25:54,44.004s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:25:11,2022-07-20 13:25:37,25.842s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:25:37,2022-07-20 13:25:39,2.611s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:25:39,2022-07-20 13:25:41,1.681s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 0)",,,,2022-07-20 13:25:41,2022-07-20 13:25:42,1.479s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:25:42,2022-07-20 13:25:44,1.539s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""1234"", 0)",,,,2022-07-20 13:25:44,2022-07-20 13:25:45,1.411s,PASSED
+pressBack(),,,,2022-07-20 13:25:45,2022-07-20 13:25:47,1.817s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:25:47,2022-07-20 13:25:49,1.532s,PASSED
+"delay(4, STOP_ON_FAILURE)",,,,2022-07-20 13:25:49,2022-07-20 13:25:53,4.004s,PASSED
+"verifyElementVisible(findTestObject(""Login/negative/verify text""), 0)",,,,2022-07-20 13:25:53,2022-07-20 13:25:54,1.031s,PASSED
+closeApplication(),,,,2022-07-20 13:25:54,2022-07-20 13:25:54,0.373s,PASSED
+,,,,,,,
+Test Cases/Login/positive/test case login with valid email and password,,,,2022-07-20 13:25:54,2022-07-20 13:26:38,43.778s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:25:55,2022-07-20 13:26:20,24.947s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:26:20,2022-07-20 13:26:22,1.802s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:26:22,2022-07-20 13:26:24,2.060s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 3)",,,,2022-07-20 13:26:24,2022-07-20 13:26:25,1.445s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:26:25,2022-07-20 13:26:27,2.103s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 3)",,,,2022-07-20 13:26:27,2022-07-20 13:26:29,2.185s,PASSED
+pressBack(),,,,2022-07-20 13:26:29,2022-07-20 13:26:30,0.690s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:26:30,2022-07-20 13:26:32,2.316s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-07-20 13:26:32,2022-07-20 13:26:37,5.002s,PASSED
+closeApplication(),,,,2022-07-20 13:26:37,2022-07-20 13:26:38,0.445s,PASSED
+,,,,,,,
+Test Cases/Logout/negative/test case logout,,,,2022-07-20 13:26:38,2022-07-20 13:27:28,49.987s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:26:38,2022-07-20 13:27:03,24.821s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:27:03,2022-07-20 13:27:05,1.844s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:27:05,2022-07-20 13:27:06,1.242s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 0)",,,,2022-07-20 13:27:06,2022-07-20 13:27:08,1.470s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:27:08,2022-07-20 13:27:09,1.545s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 0)",,,,2022-07-20 13:27:09,2022-07-20 13:27:12,2.773s,PASSED
+pressBack(),,,,2022-07-20 13:27:12,2022-07-20 13:27:13,0.854s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:27:13,2022-07-20 13:27:16,2.615s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:27:16,2022-07-20 13:27:19,3.004s,PASSED
+"tap(findTestObject(""Profile/button icon profile""), 0)",,,,2022-07-20 13:27:19,2022-07-20 13:27:20,1.364s,PASSED
+"tap(findTestObject(""Logout/positive/logout""), 0)",,,,2022-07-20 13:27:20,2022-07-20 13:27:22,1.565s,PASSED
+"tap(findTestObject(""Logout/negative/button confirm batal""), 0)",,,,2022-07-20 13:27:22,2022-07-20 13:27:22,0.927s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-07-20 13:27:22,2022-07-20 13:27:27,5.002s,PASSED
+closeApplication(),,,,2022-07-20 13:27:27,2022-07-20 13:27:28,0.365s,PASSED
+,,,,,,,
+Test Cases/Logout/positive/test case logout,,,,2022-07-20 13:27:28,2022-07-20 13:28:23,54.903s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:27:28,2022-07-20 13:27:53,24.674s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:27:53,2022-07-20 13:28:00,6.575s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:28:00,2022-07-20 13:28:02,1.887s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 0)",,,,2022-07-20 13:28:02,2022-07-20 13:28:04,2.668s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:28:04,2022-07-20 13:28:05,1.048s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 0)",,,,2022-07-20 13:28:05,2022-07-20 13:28:07,2.178s,PASSED
+pressBack(),,,,2022-07-20 13:28:07,2022-07-20 13:28:08,0.656s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:28:08,2022-07-20 13:28:10,2.157s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:28:10,2022-07-20 13:28:13,3.010s,PASSED
+"tap(findTestObject(""Profile/button icon profile""), 0)",,,,2022-07-20 13:28:13,2022-07-20 13:28:14,0.641s,PASSED
+"tap(findTestObject(""Logout/positive/logout""), 0)",,,,2022-07-20 13:28:14,2022-07-20 13:28:16,2.152s,PASSED
+"tap(findTestObject(""Logout/positive/button confirm keluar""), 0)",,,,2022-07-20 13:28:16,2022-07-20 13:28:17,1.217s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-07-20 13:28:17,2022-07-20 13:28:22,5.002s,PASSED
+closeApplication(),,,,2022-07-20 13:28:22,2022-07-20 13:28:23,0.384s,PASSED
+,,,,,,,
+Test Cases/Nearest health facility/positive/test case nearest health facility base current city,,,,2022-07-20 13:28:23,2022-07-20 13:29:10,47.127s,PASSED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:28:23,2022-07-20 13:28:48,24.978s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:28:48,2022-07-20 13:28:50,1.775s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:28:50,2022-07-20 13:28:52,1.389s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 3)",,,,2022-07-20 13:28:52,2022-07-20 13:28:53,1.619s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:28:53,2022-07-20 13:28:54,0.922s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 3)",,,,2022-07-20 13:28:54,2022-07-20 13:28:56,2.035s,PASSED
+pressBack(),,,,2022-07-20 13:28:56,2022-07-20 13:28:57,0.697s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:28:57,2022-07-20 13:28:59,2.363s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:28:59,2022-07-20 13:29:02,3.003s,PASSED
+"tap(findTestObject(""Nearest health family/ubah kota""), 0)",,,,2022-07-20 13:29:02,2022-07-20 13:29:04,1.735s,PASSED
+"setText(findTestObject(""Nearest health family/input city""), ""Semarang"", 0)",,,,2022-07-20 13:29:04,2022-07-20 13:29:05,1.370s,PASSED
+"tap(findTestObject(""Nearest health family/button ubah""), 0)",,,,2022-07-20 13:29:05,2022-07-20 13:29:06,1.179s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:29:06,2022-07-20 13:29:09,3.003s,PASSED
+closeApplication(),,,,2022-07-20 13:29:09,2022-07-20 13:29:10,0.382s,PASSED
+,,,,,,,
+Test Cases/Nearest health facility/positive/test case see health facility today,,,,2022-07-20 13:29:10,2022-07-20 13:29:56,45.654s,PASSED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:29:11,2022-07-20 13:29:36,25.670s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:29:36,2022-07-20 13:29:39,2.974s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:29:39,2022-07-20 13:29:40,0.741s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 3)",,,,2022-07-20 13:29:40,2022-07-20 13:29:42,1.866s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:29:42,2022-07-20 13:29:43,1.280s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 3)",,,,2022-07-20 13:29:43,2022-07-20 13:29:45,1.711s,PASSED
+pressBack(),,,,2022-07-20 13:29:45,2022-07-20 13:29:46,0.691s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:29:46,2022-07-20 13:29:48,2.293s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:29:48,2022-07-20 13:29:51,3.005s,PASSED
+"tap(findTestObject(""Nearest health family/lokasi vaksin""), 0)",,,,2022-07-20 13:29:51,2022-07-20 13:29:52,1.238s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:29:52,2022-07-20 13:29:55,3.001s,PASSED
+closeApplication(),,,,2022-07-20 13:29:55,2022-07-20 13:29:56,0.362s,PASSED
+,,,,,,,
+Test Cases/Nearest health facility/positive/test case see list health facility today,,,,2022-07-20 13:29:56,2022-07-20 13:30:40,44.802s,PASSED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:29:56,2022-07-20 13:30:21,25.306s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:30:21,2022-07-20 13:30:23,1.781s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:30:23,2022-07-20 13:30:25,1.421s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 3)",,,,2022-07-20 13:30:25,2022-07-20 13:30:26,1.523s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:30:26,2022-07-20 13:30:28,1.478s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 3)",,,,2022-07-20 13:30:28,2022-07-20 13:30:29,1.289s,PASSED
+pressBack(),,,,2022-07-20 13:30:29,2022-07-20 13:30:30,1.409s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:30:30,2022-07-20 13:30:32,2.058s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:30:32,2022-07-20 13:30:35,3.001s,PASSED
+"tap(findTestObject(""Nearest health family/lihat semua lokasi vaksin""), 0)",,,,2022-07-20 13:30:35,2022-07-20 13:30:37,1.507s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:30:37,2022-07-20 13:30:40,3.005s,PASSED
+closeApplication(),,,,2022-07-20 13:30:40,2022-07-20 13:30:40,0.353s,PASSED
+,,,,,,,
+Test Cases/News/positive/test case see all news,,,,2022-07-20 13:30:40,2022-07-20 13:31:30,49.441s,PASSED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:30:41,2022-07-20 13:31:06,24.704s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:31:06,2022-07-20 13:31:10,4.834s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:31:10,2022-07-20 13:31:12,1.257s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 0)",,,,2022-07-20 13:31:12,2022-07-20 13:31:14,1.843s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:31:14,2022-07-20 13:31:14,0.865s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 0)",,,,2022-07-20 13:31:14,2022-07-20 13:31:17,2.119s,PASSED
+pressBack(),,,,2022-07-20 13:31:17,2022-07-20 13:31:17,0.681s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:31:17,2022-07-20 13:31:19,2.069s,PASSED
+"tap(findTestObject(""News/lihat semua covid""), 0)",,,,2022-07-20 13:31:19,2022-07-20 13:31:23,3.916s,PASSED
+"tap(findTestObject(""News/tap berita in lihat semua""), 0)",,,,2022-07-20 13:31:23,2022-07-20 13:31:24,1.218s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-07-20 13:31:24,2022-07-20 13:31:29,5.001s,PASSED
+closeApplication(),,,,2022-07-20 13:31:29,2022-07-20 13:31:30,0.338s,PASSED
+,,,,,,,
+Test Cases/News/positive/test case see news,,,,2022-07-20 13:31:30,2022-07-20 13:32:33,1m - 3.530s,PASSED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:31:30,2022-07-20 13:31:55,24.841s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:31:55,2022-07-20 13:32:17,22.180s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:32:17,2022-07-20 13:32:18,1.037s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 0)",,,,2022-07-20 13:32:18,2022-07-20 13:32:20,2.042s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:32:20,2022-07-20 13:32:21,0.744s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 0)",,,,2022-07-20 13:32:21,2022-07-20 13:32:22,1.123s,PASSED
+pressBack(),,,,2022-07-20 13:32:22,2022-07-20 13:32:23,0.978s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 0)",,,,2022-07-20 13:32:23,2022-07-20 13:32:25,1.365s,PASSED
+"tap(findTestObject(""News/tap berita""), 0)",,,,2022-07-20 13:32:25,2022-07-20 13:32:28,3.282s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-07-20 13:32:28,2022-07-20 13:32:33,5.005s,PASSED
+closeApplication(),,,,2022-07-20 13:32:33,2022-07-20 13:32:33,0.357s,PASSED
+,,,,,,,
+Test Cases/Register/positive/test case register new user,,,,2022-07-20 13:32:33,2022-07-20 13:34:05,1m - 31.486s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:32:34,2022-07-20 13:32:59,24.721s,PASSED
+"tap(findTestObject(""Register/positive/button daftar""), 0)",,,,2022-07-20 13:32:59,2022-07-20 13:33:01,2.626s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:33:01,2022-07-20 13:33:04,2.250s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""nicholas@gmail.com"", 0)",,,,2022-07-20 13:33:04,2022-07-20 13:33:05,1.467s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:33:05,2022-07-20 13:33:06,1.252s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""Frans1234"", 0)",,,,2022-07-20 13:33:06,2022-07-20 13:33:08,1.262s,PASSED
+pressBack(),,,,2022-07-20 13:33:08,2022-07-20 13:33:09,1.730s,PASSED
+"tap(findTestObject(""Register/positive/button daftar""), 0)",,,,2022-07-20 13:33:09,2022-07-20 13:33:12,2.697s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:33:12,2022-07-20 13:33:15,3.003s,PASSED
+"tap(findTestObject(""Register/positive/button icon foto""), 0)",,,,2022-07-20 13:33:15,2022-07-20 13:33:16,0.607s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:33:16,2022-07-20 13:33:19,3.002s,PASSED
+"tap(findTestObject(""Register/positive/image""), 0)",,,,2022-07-20 13:33:19,2022-07-20 13:33:20,1.264s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:33:20,2022-07-20 13:33:23,3.002s,PASSED
+"tap(findTestObject(""Register/positive/nama lengkap""), 0)",,,,2022-07-20 13:33:23,2022-07-20 13:33:24,1.510s,PASSED
+"setText(findTestObject(""Register/positive/nama lengkap""), ""Purnomo"", 0)",,,,2022-07-20 13:33:24,2022-07-20 13:33:26,1.399s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:33:26,2022-07-20 13:33:29,3.001s,PASSED
+"tap(findTestObject(""Register/positive/nik""), 0)",,,,2022-07-20 13:33:29,2022-07-20 13:33:29,0.543s,PASSED
+"setText(findTestObject(""Register/positive/nik""), ""3319087890985690"", 0)",,,,2022-07-20 13:33:29,2022-07-20 13:33:31,1.917s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:33:31,2022-07-20 13:33:34,3.002s,PASSED
+"tap(findTestObject(""Register/positive/tanggal lahir""), 0)",,,,2022-07-20 13:33:34,2022-07-20 13:33:35,0.941s,PASSED
+"tap(findTestObject(""Register/positive/icon kalender""), 0)",,,,2022-07-20 13:33:35,2022-07-20 13:33:37,1.679s,PASSED
+"setText(findTestObject(""Register/positive/input date""), ""09/09/1998"", 0)",,,,2022-07-20 13:33:37,2022-07-20 13:33:40,2.995s,PASSED
+"tap(findTestObject(""Register/positive/ok""), 0)",,,,2022-07-20 13:33:40,2022-07-20 13:33:41,0.782s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:33:41,2022-07-20 13:33:44,3.002s,PASSED
+"tap(findTestObject(""Register/positive/no hp""), 0)",,,,2022-07-20 13:33:44,2022-07-20 13:33:44,0.475s,PASSED
+"setText(findTestObject(""Register/positive/no hp""), ""089098909890"", 0)",,,,2022-07-20 13:33:44,2022-07-20 13:33:46,1.760s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:33:46,2022-07-20 13:33:49,3.003s,PASSED
+"tap(findTestObject(""Register/positive/jenis kelamin""), 0)",,,,2022-07-20 13:33:49,2022-07-20 13:33:53,4.474s,PASSED
+"tap(findTestObject(""Register/positive/laki2""), 0)",,,,2022-07-20 13:33:53,2022-07-20 13:33:55,1.981s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:33:55,2022-07-20 13:33:58,3.002s,PASSED
+"tap(findTestObject(""Register/positive/simpan""), 0)",,,,2022-07-20 13:33:58,2022-07-20 13:33:59,1.045s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-07-20 13:33:59,2022-07-20 13:34:04,5.001s,PASSED
+closeApplication(),,,,2022-07-20 13:34:04,2022-07-20 13:34:05,0.377s,PASSED
+,,,,,,,
+Test Cases/Vaccine ticket/negative/test case cancel bagikan ticket vaccine,,,,2022-07-20 13:34:40,2022-07-20 13:35:57,1m - 17.391s,PASSED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:34:40,2022-07-20 13:35:25,45.479s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:35:25,2022-07-20 13:35:27,1.880s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:35:27,2022-07-20 13:35:30,2.196s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 3)",,,,2022-07-20 13:35:30,2022-07-20 13:35:33,3.128s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:35:33,2022-07-20 13:35:34,0.907s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 3)",,,,2022-07-20 13:35:34,2022-07-20 13:35:36,2.168s,PASSED
+pressBack(),,,,2022-07-20 13:35:36,2022-07-20 13:35:36,0.710s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:35:36,2022-07-20 13:35:39,2.782s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:35:39,2022-07-20 13:35:42,3.004s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/button tiket""), 0)",,,,2022-07-20 13:35:42,2022-07-20 13:35:44,1.372s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/detail ticket vaksin""), 0)",,,,2022-07-20 13:35:44,2022-07-20 13:35:45,1.481s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:35:45,2022-07-20 13:35:48,3.010s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/icon menu""), 0)",,,,2022-07-20 13:35:48,2022-07-20 13:35:49,0.591s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/bagikan""), 0)",,,,2022-07-20 13:35:49,2022-07-20 13:35:50,1.000s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:35:50,2022-07-20 13:35:53,3.001s,PASSED
+"tap(findTestObject(""vaccine ticket/negative/batal share""), 0)",,,,2022-07-20 13:35:53,2022-07-20 13:35:54,1.290s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:35:54,2022-07-20 13:35:57,3.002s,PASSED
+closeApplication(),,,,2022-07-20 13:35:57,2022-07-20 13:35:57,0.365s,PASSED
+,,,,,,,
+Test Cases/Vaccine ticket/negative/test case cancel simpan ticket vaccine,,,,2022-07-20 13:35:57,2022-07-20 13:36:56,59.102s,PASSED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:35:58,2022-07-20 13:36:25,26.481s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:36:25,2022-07-20 13:36:27,2.028s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:36:27,2022-07-20 13:36:28,1.407s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 3)",,,,2022-07-20 13:36:28,2022-07-20 13:36:29,1.487s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:36:29,2022-07-20 13:36:32,2.328s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 3)",,,,2022-07-20 13:36:32,2022-07-20 13:36:34,2.231s,PASSED
+pressBack(),,,,2022-07-20 13:36:34,2022-07-20 13:36:35,1.152s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:36:35,2022-07-20 13:36:37,1.869s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:36:37,2022-07-20 13:36:40,3.002s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/button tiket""), 0)",,,,2022-07-20 13:36:40,2022-07-20 13:36:43,3.201s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/detail ticket vaksin""), 0)",,,,2022-07-20 13:36:43,2022-07-20 13:36:44,1.171s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:36:44,2022-07-20 13:36:47,3.003s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/icon menu""), 0)",,,,2022-07-20 13:36:47,2022-07-20 13:36:48,0.588s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/simpan""), 0)",,,,2022-07-20 13:36:48,2022-07-20 13:36:49,1.379s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:36:49,2022-07-20 13:36:52,3.001s,PASSED
+"tap(findTestObject(""vaccine ticket/negative/batal save""), 0)",,,,2022-07-20 13:36:52,2022-07-20 13:36:53,0.682s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:36:53,2022-07-20 13:36:56,3.002s,PASSED
+closeApplication(),,,,2022-07-20 13:36:56,2022-07-20 13:36:56,0.376s,PASSED
+,,,,,,,
+Test Cases/Vaccine ticket/positive/test case bagikan ticket vaccine,,,,2022-07-20 13:36:56,2022-07-20 13:37:57,1m - 0.185s,PASSED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:36:57,2022-07-20 13:37:22,25.180s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:37:22,2022-07-20 13:37:24,1.781s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:37:24,2022-07-20 13:37:26,1.850s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 3)",,,,2022-07-20 13:37:26,2022-07-20 13:37:28,1.722s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:37:28,2022-07-20 13:37:29,1.288s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 3)",,,,2022-07-20 13:37:29,2022-07-20 13:37:30,1.401s,PASSED
+pressBack(),,,,2022-07-20 13:37:30,2022-07-20 13:37:32,1.296s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:37:32,2022-07-20 13:37:34,2.134s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:37:34,2022-07-20 13:37:37,3.004s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/button tiket""), 0)",,,,2022-07-20 13:37:37,2022-07-20 13:37:38,1.357s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/detail ticket vaksin""), 0)",,,,2022-07-20 13:37:38,2022-07-20 13:37:39,1.372s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:37:39,2022-07-20 13:37:42,3.004s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/icon menu""), 0)",,,,2022-07-20 13:37:42,2022-07-20 13:37:44,1.643s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/bagikan""), 0)",,,,2022-07-20 13:37:44,2022-07-20 13:37:45,0.992s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:37:45,2022-07-20 13:37:48,3.002s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/catatan keep""), 0)",,,,2022-07-20 13:37:48,2022-07-20 13:37:49,0.578s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:37:49,2022-07-20 13:37:52,3.005s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/simpan catatan keep""), 0)",,,,2022-07-20 13:37:52,2022-07-20 13:37:53,1.579s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:37:53,2022-07-20 13:37:56,3.001s,PASSED
+closeApplication(),,,,2022-07-20 13:37:56,2022-07-20 13:37:57,0.359s,PASSED
+,,,,,,,
+Test Cases/Vaccine ticket/positive/test case see detail ticket vaccine,,,,2022-07-20 13:37:57,2022-07-20 13:38:43,46.210s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:37:57,2022-07-20 13:38:22,24.709s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:38:22,2022-07-20 13:38:24,1.749s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:38:24,2022-07-20 13:38:25,1.211s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 3)",,,,2022-07-20 13:38:25,2022-07-20 13:38:27,2.304s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:38:27,2022-07-20 13:38:28,0.918s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 3)",,,,2022-07-20 13:38:28,2022-07-20 13:38:30,1.755s,PASSED
+pressBack(),,,,2022-07-20 13:38:30,2022-07-20 13:38:31,1.184s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:38:31,2022-07-20 13:38:33,1.788s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:38:33,2022-07-20 13:38:36,3.002s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/button tiket""), 0)",,,,2022-07-20 13:38:36,2022-07-20 13:38:37,1.364s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/detail ticket vaksin""), 0)",,,,2022-07-20 13:38:37,2022-07-20 13:38:39,2.139s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:38:39,2022-07-20 13:38:42,3.002s,PASSED
+closeApplication(),,,,2022-07-20 13:38:42,2022-07-20 13:38:43,0.373s,PASSED
+,,,,,,,
+Test Cases/Vaccine ticket/positive/test case see list ticket vaccine,,,,2022-07-20 13:39:13,2022-07-20 13:39:50,36.476s,PASSED
+"startApplication(""C:\\Users\\A\\Downloads\\app-release (3).apk"", false)",,,,2022-07-20 13:39:13,2022-07-20 13:39:28,14.683s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:39:28,2022-07-20 13:39:31,3.479s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:39:31,2022-07-20 13:39:33,1.276s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 3)",,,,2022-07-20 13:39:33,2022-07-20 13:39:35,2.425s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:39:35,2022-07-20 13:39:37,1.703s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 3)",,,,2022-07-20 13:39:37,2022-07-20 13:39:38,1.249s,PASSED
+pressBack(),,,,2022-07-20 13:39:38,2022-07-20 13:39:40,1.804s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:39:40,2022-07-20 13:39:42,1.825s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:39:42,2022-07-20 13:39:45,3.002s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/button tiket""), 0)",,,,2022-07-20 13:39:45,2022-07-20 13:39:46,1.628s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:39:46,2022-07-20 13:39:49,3.004s,PASSED
+closeApplication(),,,,2022-07-20 13:39:49,2022-07-20 13:39:50,0.379s,PASSED
+,,,,,,,
+Test Cases/Vaccine ticket/positive/test case simpan ticket vaccine,,,,2022-07-20 13:39:50,2022-07-20 13:40:45,54.932s,PASSED
+"startApplication(""D:\CAPSTONE\Testing Mobile\Data Files\app-release (3).apk"", false)",,,,2022-07-20 13:39:50,2022-07-20 13:40:15,24.946s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:40:15,2022-07-20 13:40:17,1.777s,PASSED
+"tap(findTestObject(""Login/positive/input email""), 0)",,,,2022-07-20 13:40:17,2022-07-20 13:40:18,1.281s,PASSED
+"setText(findTestObject(""Login/positive/input email""), ""anjasmara@gmail.com"", 3)",,,,2022-07-20 13:40:18,2022-07-20 13:40:20,1.760s,PASSED
+"tap(findTestObject(""Login/positive/input password""), 0)",,,,2022-07-20 13:40:20,2022-07-20 13:40:21,0.921s,PASSED
+"setText(findTestObject(""Login/positive/input password""), ""anjasmara"", 3)",,,,2022-07-20 13:40:21,2022-07-20 13:40:24,2.520s,PASSED
+pressBack(),,,,2022-07-20 13:40:24,2022-07-20 13:40:24,0.706s,PASSED
+"tap(findTestObject(""Login/positive/button masuk""), 3)",,,,2022-07-20 13:40:24,2022-07-20 13:40:27,2.248s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:40:27,2022-07-20 13:40:30,3.002s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/button tiket""), 0)",,,,2022-07-20 13:40:30,2022-07-20 13:40:32,2.246s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/detail ticket vaksin""), 0)",,,,2022-07-20 13:40:32,2022-07-20 13:40:32,0.546s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:40:32,2022-07-20 13:40:35,3.002s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/icon menu""), 0)",,,,2022-07-20 13:40:35,2022-07-20 13:40:36,0.606s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/simpan""), 0)",,,,2022-07-20 13:40:36,2022-07-20 13:40:37,0.985s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:40:37,2022-07-20 13:40:40,3.003s,PASSED
+"tap(findTestObject(""vaccine ticket/positive/save to foto""), 0)",,,,2022-07-20 13:40:40,2022-07-20 13:40:41,1.336s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 13:40:41,2022-07-20 13:40:44,3.001s,PASSED
+closeApplication(),,,,2022-07-20 13:40:44,2022-07-20 13:40:45,0.437s,PASSED

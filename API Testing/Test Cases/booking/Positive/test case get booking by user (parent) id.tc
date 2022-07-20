@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test case get booking by user (parent) id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39a0921c-fcbe-4091-80b7-06cee09558ad</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>get booking by health facility(parent) id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c23f3a1a-1cd9-4634-aeb9-1244d4be632d</testCaseGuid>
+</TestCaseEntity>

@@ -21,5 +21,3 @@ response = WS.sendRequest(findTestObject('kelompok/Positive/get kelompok by id')
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'data.idKelompok', 14)
-

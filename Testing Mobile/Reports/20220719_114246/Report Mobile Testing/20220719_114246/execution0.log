@@ -3773,3 +3773,4 @@ com.kms.katalon.core.exception.StepFailedException: Actual text &amp;apos;&amp;a
   <property name="startLine">20</property>
   <property name="stepIndex">1</property>
 </record>
+</log>
